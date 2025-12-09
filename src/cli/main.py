@@ -231,11 +231,8 @@ def check():
     except Exception as e:
         console.print(f"[red]✗[/red] Ollama: Not running (run: ollama serve)")
 
-    # Check Reddit credentials
-    if settings.reddit.client_id:
-        console.print(f"[green]✓[/green] Reddit API: Configured")
-    else:
-        console.print("[yellow]![/yellow] Reddit API: Not configured (set REDDIT_CLIENT_ID in .env)")
+    # Check Reddit (YARS - no API needed)
+    console.print(f"[green]✓[/green] Reddit: Using YARS (no API key required)")
 
     # Check directories
     console.print(f"\n[bold]Data directories:[/bold]")

@@ -11,16 +11,10 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class RedditSettings(BaseSettings):
-    """Reddit API configuration."""
+    """Reddit scraping configuration (no API key required - uses YARS)."""
 
     model_config = SettingsConfigDict(env_prefix="REDDIT_")
 
-    client_id: str = Field(default="", description="Reddit API client ID")
-    client_secret: str = Field(default="", description="Reddit API client secret")
-    user_agent: str = Field(
-        default="sloppenhimer:v1.0 (by /u/sloppenhimer)",
-        description="Reddit API user agent",
-    )
     subreddits: list[str] = Field(
         default=["AITA", "tifu", "AmItheAsshole", "relationships", "confession"],
         description="Subreddits to scrape",

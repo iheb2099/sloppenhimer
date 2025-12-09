@@ -2,9 +2,11 @@
 
 Automated content pipeline for creating short-form vertical videos from Reddit stories with Minecraft gameplay backgrounds and TTS narration.
 
+**No Reddit API key required** - uses [YARS](https://github.com/datavorous/yars) for API-free scraping.
+
 ## What it does
 
-1. **Scrapes Reddit** - Fetches top stories from r/AITA, r/tifu, r/relationships, etc.
+1. **Scrapes Reddit** - Fetches top stories from r/AITA, r/tifu, r/relationships, etc. (no API key needed)
 2. **Downloads gameplay** - Grabs royalty-free Minecraft videos from YouTube
 3. **Simplifies stories** - Uses local LLM (Ollama) to make text TTS-friendly
 4. **Generates voiceover** - Creates natural speech with edge-tts
@@ -25,14 +27,6 @@ ollama serve  # Start in background
 ollama pull llama3.2:3b  # Download model
 ```
 
-### Reddit API Setup
-
-1. Go to https://www.reddit.com/prefs/apps
-2. Click "create another app..."
-3. Select "script" type
-4. Set redirect URI to `http://localhost:8080`
-5. Note your `client_id` (under app name) and `client_secret`
-
 ### Install Sloppenhimer
 
 ```bash
@@ -46,24 +40,24 @@ source .venv/bin/activate
 # Install dependencies
 pip install -e .
 
-# Configure
+# Optional: copy and customize config
 cp .env.example .env
-# Edit .env with your Reddit credentials
 ```
 
 ## Configuration
 
-Edit `.env`:
+Edit `.env` (optional - defaults work out of the box):
 
 ```bash
-# Required: Reddit API
-REDDIT_CLIENT_ID=your_client_id
-REDDIT_CLIENT_SECRET=your_client_secret
-REDDIT_USER_AGENT=sloppenhimer:v1.0 (by /u/yourusername)
-
-# Optional: Customize
+# Ollama
 OLLAMA_MODEL=llama3.2:3b
+
+# TTS Voice
 EDGE_TTS_VOICE=en-US-ChristopherNeural
+
+# Video output
+OUTPUT_RESOLUTION_WIDTH=1080
+OUTPUT_RESOLUTION_HEIGHT=1920
 ```
 
 ## Usage
@@ -71,7 +65,7 @@ EDGE_TTS_VOICE=en-US-ChristopherNeural
 ### Quick Start
 
 ```bash
-# 1. Scrape some stories
+# 1. Scrape some stories (no API key needed!)
 sloppenhimer scrape
 
 # 2. Download background videos
@@ -136,7 +130,7 @@ sloppenhimer/
 ├── src/
 │   ├── cli/main.py              # Typer CLI
 │   ├── scrapers/
-│   │   ├── reddit.py            # PRAW Reddit scraper
+│   │   ├── reddit.py            # YARS Reddit scraper (no API)
 │   │   └── youtube.py           # yt-dlp downloader
 │   ├── processors/
 │   │   ├── llm.py               # Ollama integration
@@ -159,8 +153,8 @@ sloppenhimer/
 
 ## Tech Stack
 
+- **[YARS](https://github.com/datavorous/yars)** - API-free Reddit scraping
 - **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** - YouTube downloading
-- **[PRAW](https://praw.readthedocs.io/)** - Reddit API wrapper
 - **[Ollama](https://ollama.ai/)** - Local LLM inference
 - **[edge-tts](https://github.com/rany2/edge-tts)** - Microsoft TTS
 - **[OpenAI Whisper](https://github.com/openai/whisper)** - Speech transcription
@@ -196,9 +190,6 @@ ollama serve
 # In another terminal, pull a model
 ollama pull llama3.2:3b
 ```
-
-### "Reddit client_id not configured"
-Make sure `.env` exists and has valid Reddit API credentials.
 
 ### "No background videos available"
 ```bash
