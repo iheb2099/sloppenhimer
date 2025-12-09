@@ -1,0 +1,36 @@
+[project]
+name = "sloppenhimer"
+version = "0.1.0"
+description = "Automated content pipeline for Reddit story videos with Minecraft gameplay"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp>=2024.0.0",
+    "moviepy>=2.0.0",
+    "praw>=7.7.0",
+    "ollama>=0.4.0",
+    "edge-tts>=6.1.0",
+    "openai-whisper>=20231117",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "typer>=0.12.0",
+    "loguru>=0.7.0",
+    "rich>=13.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[project.scripts]
+sloppenhimer = "src.cli.main:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src", "config"]
