@@ -5,6 +5,7 @@ Creates word-by-word highlighted captions for video.
 
 from pathlib import Path
 from typing import Callable
+import textwrap
 
 from loguru import logger
 from moviepy import TextClip, CompositeVideoClip, VideoFileClip
@@ -170,6 +171,33 @@ class KaraokeCaptions:
             # For now, we'll use a simple approach with colored text overlay
 
         return clips
+
+    def _wrap_text_properly(self, text: str, max_width: int) -> str:
+        """
+        Wrap text ensuring words are not split across lines.
+        
+        Args:
+            text: Text to wrap
+            max_width: Maximum characters per line (approximate)
+            
+        Returns:
+            Wrapped text with proper word boundaries
+        """
+        # Use textwrap to ensure words stay together
+        # Adjust width based on font size - this is approximate
+        # You may need to tune this value based on your font
+        wrapper = textwrap.TextWrapper(
+            width=max_width,
+            break_long_words=False,
+            break_on_hyphens=False,
+            expand_tabs=False,
+            replace_whitespace=True,
+            drop_whitespace=True,
+        )
+        
+        wrapped_lines = wrapper.wrap(text)
+        return "\n".join(wrapped_lines)
+
     def generate_captions(
         self,
         transcript: Transcript,
@@ -197,10 +225,10 @@ class KaraokeCaptions:
         return all_clips
 
     def _create_simple_karaoke(
-    self,
-    segment: CaptionSegment,
-    video_size: tuple[int, int],
-) -> list:
+        self,
+        segment: CaptionSegment,
+        video_size: tuple[int, int],
+    ) -> list:
         """
         Create simple karaoke captions - show segment text, highlight current word.
 
@@ -210,11 +238,18 @@ class KaraokeCaptions:
         width, height = video_size
         
         full_text = " ".join(w.word for w in segment.words)
+        
+        # Estimate character width based on video width and font size
+        # This is approximate - adjust the divisor based on your font
+        approx_chars_per_line = (width - 80) // (self.settings.caption.font_size // 2)
+        
+        # Wrap text properly to avoid word splitting
+        wrapped_text = self._wrap_text_properly(full_text, approx_chars_per_line)
+        
+        # Add padding to prevent clipping
+        padded_text = f"\n{wrapped_text}\n"
 
         for i, word in enumerate(segment.words):
-            # Add space above and below to prevent clipping
-            padded_text = f" \n{full_text}\n "
-            
             clip = TextClip(
                 text=padded_text,
                 font_size=self.settings.caption.font_size,
@@ -222,14 +257,17 @@ class KaraokeCaptions:
                 font=self.settings.caption.font,
                 stroke_color=self.settings.caption.stroke_color,
                 stroke_width=self.settings.caption.stroke_width,
-                method="caption",
-                size=(width - 80, None),
-                text_align="center",
+                method="label",  # Changed from "caption" to "label" for better control
             )
             
             y_pos = int(height * 0.5 - clip.h * 0.5)
             
-            clip = clip.with_position(("center", y_pos)).with_start(word.start_time).with_end(word.end_time)
+            clip = (
+                clip
+                .with_position(("center", y_pos))
+                .with_start(word.start_time)
+                .with_end(word.end_time)
+            )
             clips.append(clip)
     
         return clips
