@@ -88,7 +88,10 @@ class CaptionSettings(BaseSettings):
 
     model_config = SettingsConfigDict(env_prefix="CAPTION_")
 
-    font: str = Field(default="Arial-Bold", description="Caption font")
+    font: str = Field(
+        default=r"C:\Windows\Fonts\arialbd.ttf",
+        description="Caption font (absolute path to .ttf)",
+    )
     font_size: int = Field(default=60, description="Caption font size")
     color: str = Field(default="white", description="Default text color")
     highlight_color: str = Field(default="yellow", description="Active word color")

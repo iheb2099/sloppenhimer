@@ -1,0 +1,1674 @@
+{
+  "words": [
+    {
+      "word": "I",
+      "start_time": 0.0,
+      "end_time": 0.3,
+      "confidence": 0.47511258721351624
+    },
+    {
+      "word": "met",
+      "start_time": 0.3,
+      "end_time": 0.48,
+      "confidence": 0.8856603503227234
+    },
+    {
+      "word": "my",
+      "start_time": 0.48,
+      "end_time": 0.66,
+      "confidence": 0.9942508935928345
+    },
+    {
+      "word": "wits",
+      "start_time": 0.66,
+      "end_time": 0.94,
+      "confidence": 0.7991698980331421
+    },
+    {
+      "word": "end.",
+      "start_time": 0.94,
+      "end_time": 1.3,
+      "confidence": 0.8079540729522705
+    },
+    {
+      "word": "My",
+      "start_time": 1.94,
+      "end_time": 2.42,
+      "confidence": 0.9290494918823242
+    },
+    {
+      "word": "husband",
+      "start_time": 2.42,
+      "end_time": 2.8,
+      "confidence": 0.9984102249145508
+    },
+    {
+      "word": "and",
+      "start_time": 2.8,
+      "end_time": 2.98,
+      "confidence": 0.9983770847320557
+    },
+    {
+      "word": "I",
+      "start_time": 2.98,
+      "end_time": 3.1,
+      "confidence": 0.9962182641029358
+    },
+    {
+      "word": "have",
+      "start_time": 3.1,
+      "end_time": 3.24,
+      "confidence": 0.9730548858642578
+    },
+    {
+      "word": "been",
+      "start_time": 3.24,
+      "end_time": 3.38,
+      "confidence": 0.9993346333503723
+    },
+    {
+      "word": "together",
+      "start_time": 3.38,
+      "end_time": 3.72,
+      "confidence": 0.9988583326339722
+    },
+    {
+      "word": "for",
+      "start_time": 3.72,
+      "end_time": 3.96,
+      "confidence": 0.9983854293823242
+    },
+    {
+      "word": "eight",
+      "start_time": 3.96,
+      "end_time": 4.16,
+      "confidence": 0.7215428948402405
+    },
+    {
+      "word": "years,",
+      "start_time": 4.16,
+      "end_time": 4.5,
+      "confidence": 0.997635006904602
+    },
+    {
+      "word": "married",
+      "start_time": 4.96,
+      "end_time": 5.18,
+      "confidence": 0.996766209602356
+    },
+    {
+      "word": "for",
+      "start_time": 5.18,
+      "end_time": 5.38,
+      "confidence": 0.9981420040130615
+    },
+    {
+      "word": "just",
+      "start_time": 5.38,
+      "end_time": 5.54,
+      "confidence": 0.9977295994758606
+    },
+    {
+      "word": "one",
+      "start_time": 5.54,
+      "end_time": 5.8,
+      "confidence": 0.9716655015945435
+    },
+    {
+      "word": "now,",
+      "start_time": 5.8,
+      "end_time": 6.1,
+      "confidence": 0.9902205467224121
+    },
+    {
+      "word": "and",
+      "start_time": 6.54,
+      "end_time": 6.64,
+      "confidence": 0.9957526922225952
+    },
+    {
+      "word": "we've",
+      "start_time": 6.64,
+      "end_time": 6.82,
+      "confidence": 0.9921739399433136
+    },
+    {
+      "word": "had",
+      "start_time": 6.82,
+      "end_time": 6.94,
+      "confidence": 0.9970679879188538
+    },
+    {
+      "word": "sex",
+      "start_time": 6.94,
+      "end_time": 7.16,
+      "confidence": 0.9960165619850159
+    },
+    {
+      "word": "only",
+      "start_time": 7.16,
+      "end_time": 7.52,
+      "confidence": 0.9964540004730225
+    },
+    {
+      "word": "once",
+      "start_time": 7.52,
+      "end_time": 7.8,
+      "confidence": 0.9986656904220581
+    },
+    {
+      "word": "in",
+      "start_time": 7.8,
+      "end_time": 7.96,
+      "confidence": 0.9980080723762512
+    },
+    {
+      "word": "the",
+      "start_time": 7.96,
+      "end_time": 8.0,
+      "confidence": 0.9991700649261475
+    },
+    {
+      "word": "past",
+      "start_time": 8.0,
+      "end_time": 8.26,
+      "confidence": 0.9992052912712097
+    },
+    {
+      "word": "two",
+      "start_time": 8.26,
+      "end_time": 8.52,
+      "confidence": 0.9933381080627441
+    },
+    {
+      "word": "years,",
+      "start_time": 8.52,
+      "end_time": 8.84,
+      "confidence": 0.9990816116333008
+    },
+    {
+      "word": "since",
+      "start_time": 9.22,
+      "end_time": 9.42,
+      "confidence": 0.9969832301139832
+    },
+    {
+      "word": "our",
+      "start_time": 9.42,
+      "end_time": 9.58,
+      "confidence": 0.9574320316314697
+    },
+    {
+      "word": "daughter",
+      "start_time": 9.58,
+      "end_time": 9.86,
+      "confidence": 0.9991242289543152
+    },
+    {
+      "word": "was",
+      "start_time": 9.86,
+      "end_time": 10.08,
+      "confidence": 0.9948495030403137
+    },
+    {
+      "word": "born,",
+      "start_time": 10.08,
+      "end_time": 10.4,
+      "confidence": 0.9988245368003845
+    },
+    {
+      "word": "to",
+      "start_time": 10.66,
+      "end_time": 10.8,
+      "confidence": 0.9971441626548767
+    },
+    {
+      "word": "be",
+      "start_time": 10.8,
+      "end_time": 10.92,
+      "confidence": 0.9984686970710754
+    },
+    {
+      "word": "exact.",
+      "start_time": 10.92,
+      "end_time": 11.28,
+      "confidence": 0.996085524559021
+    },
+    {
+      "word": "We",
+      "start_time": 12.28,
+      "end_time": 12.56,
+      "confidence": 0.9728862047195435
+    },
+    {
+      "word": "want",
+      "start_time": 12.56,
+      "end_time": 12.82,
+      "confidence": 0.9921810626983643
+    },
+    {
+      "word": "intimacy",
+      "start_time": 12.82,
+      "end_time": 13.26,
+      "confidence": 0.9975368976593018
+    },
+    {
+      "word": "back,",
+      "start_time": 13.26,
+      "end_time": 13.62,
+      "confidence": 0.9993601441383362
+    },
+    {
+      "word": "but",
+      "start_time": 14.06,
+      "end_time": 14.18,
+      "confidence": 0.9978589415550232
+    },
+    {
+      "word": "it",
+      "start_time": 14.18,
+      "end_time": 14.3,
+      "confidence": 0.9986621141433716
+    },
+    {
+      "word": "feels",
+      "start_time": 14.3,
+      "end_time": 14.58,
+      "confidence": 0.9990847110748291
+    },
+    {
+      "word": "like",
+      "start_time": 14.58,
+      "end_time": 14.8,
+      "confidence": 0.9996757507324219
+    },
+    {
+      "word": "a",
+      "start_time": 14.8,
+      "end_time": 14.94,
+      "confidence": 0.9990062117576599
+    },
+    {
+      "word": "distant",
+      "start_time": 14.94,
+      "end_time": 15.22,
+      "confidence": 0.9900858402252197
+    },
+    {
+      "word": "dream.",
+      "start_time": 15.22,
+      "end_time": 15.6,
+      "confidence": 0.9986792206764221
+    },
+    {
+      "word": "Our",
+      "start_time": 16.66,
+      "end_time": 16.84,
+      "confidence": 0.982703447341919
+    },
+    {
+      "word": "daughter",
+      "start_time": 16.84,
+      "end_time": 17.16,
+      "confidence": 0.9990677237510681
+    },
+    {
+      "word": "is",
+      "start_time": 17.16,
+      "end_time": 17.36,
+      "confidence": 0.9990501999855042
+    },
+    {
+      "word": "17",
+      "start_time": 17.36,
+      "end_time": 17.74,
+      "confidence": 0.5870781540870667
+    },
+    {
+      "word": "months",
+      "start_time": 17.74,
+      "end_time": 18.08,
+      "confidence": 0.9377321004867554
+    },
+    {
+      "word": "old,",
+      "start_time": 18.08,
+      "end_time": 18.48,
+      "confidence": 0.9938017725944519
+    },
+    {
+      "word": "premature",
+      "start_time": 18.82,
+      "end_time": 19.16,
+      "confidence": 0.990685760974884
+    },
+    {
+      "word": "at",
+      "start_time": 19.16,
+      "end_time": 19.5,
+      "confidence": 0.9939631819725037
+    },
+    {
+      "word": "birth,",
+      "start_time": 19.5,
+      "end_time": 19.72,
+      "confidence": 0.9990782737731934
+    },
+    {
+      "word": "and",
+      "start_time": 20.02,
+      "end_time": 20.14,
+      "confidence": 0.9987327456474304
+    },
+    {
+      "word": "spent",
+      "start_time": 20.14,
+      "end_time": 20.38,
+      "confidence": 0.9845004081726074
+    },
+    {
+      "word": "two",
+      "start_time": 20.38,
+      "end_time": 20.68,
+      "confidence": 0.9851707816123962
+    },
+    {
+      "word": "weeks",
+      "start_time": 20.68,
+      "end_time": 21.02,
+      "confidence": 0.9988574981689453
+    },
+    {
+      "word": "in",
+      "start_time": 21.02,
+      "end_time": 21.18,
+      "confidence": 0.9980602860450745
+    },
+    {
+      "word": "the",
+      "start_time": 21.18,
+      "end_time": 21.28,
+      "confidence": 0.6346378326416016
+    },
+    {
+      "word": "NICU.",
+      "start_time": 21.28,
+      "end_time": 21.6,
+      "confidence": 0.7740800182024637
+    },
+    {
+      "word": "When",
+      "start_time": 22.22,
+      "end_time": 22.76,
+      "confidence": 0.977610170841217
+    },
+    {
+      "word": "she",
+      "start_time": 22.76,
+      "end_time": 22.92,
+      "confidence": 0.9984322190284729
+    },
+    {
+      "word": "came",
+      "start_time": 22.92,
+      "end_time": 23.12,
+      "confidence": 0.9994284510612488
+    },
+    {
+      "word": "home,",
+      "start_time": 23.12,
+      "end_time": 23.48,
+      "confidence": 0.9997832179069519
+    },
+    {
+      "word": "I",
+      "start_time": 23.8,
+      "end_time": 23.92,
+      "confidence": 0.9953452944755554
+    },
+    {
+      "word": "asked",
+      "start_time": 23.92,
+      "end_time": 24.22,
+      "confidence": 0.9898171424865723
+    },
+    {
+      "word": "my",
+      "start_time": 24.22,
+      "end_time": 24.38,
+      "confidence": 0.9988848567008972
+    },
+    {
+      "word": "parents",
+      "start_time": 24.38,
+      "end_time": 24.68,
+      "confidence": 0.9978364109992981
+    },
+    {
+      "word": "not",
+      "start_time": 24.68,
+      "end_time": 24.96,
+      "confidence": 0.9953688979148865
+    },
+    {
+      "word": "to",
+      "start_time": 24.96,
+      "end_time": 25.14,
+      "confidence": 0.9986855387687683
+    },
+    {
+      "word": "visit",
+      "start_time": 25.14,
+      "end_time": 25.38,
+      "confidence": 0.9996440410614014
+    },
+    {
+      "word": "her,",
+      "start_time": 25.38,
+      "end_time": 25.64,
+      "confidence": 0.9990505576133728
+    },
+    {
+      "word": "due",
+      "start_time": 25.98,
+      "end_time": 26.1,
+      "confidence": 0.9984380602836609
+    },
+    {
+      "word": "to",
+      "start_time": 26.1,
+      "end_time": 26.24,
+      "confidence": 0.998803973197937
+    },
+    {
+      "word": "health",
+      "start_time": 26.24,
+      "end_time": 26.5,
+      "confidence": 0.9980181455612183
+    },
+    {
+      "word": "concerns",
+      "start_time": 26.5,
+      "end_time": 26.92,
+      "confidence": 0.9993112087249756
+    },
+    {
+      "word": "for",
+      "start_time": 26.92,
+      "end_time": 27.18,
+      "confidence": 0.8344491720199585
+    },
+    {
+      "word": "my",
+      "start_time": 27.18,
+      "end_time": 27.34,
+      "confidence": 0.9989848732948303
+    },
+    {
+      "word": "severe",
+      "start_time": 27.34,
+      "end_time": 27.66,
+      "confidence": 0.9976921081542969
+    },
+    {
+      "word": "preeclampsia.",
+      "start_time": 27.66,
+      "end_time": 28.58,
+      "confidence": 0.9436049938201905
+    },
+    {
+      "word": "But",
+      "start_time": 29.159999999999997,
+      "end_time": 29.68,
+      "confidence": 0.3573105037212372
+    },
+    {
+      "word": "they",
+      "start_time": 29.68,
+      "end_time": 29.86,
+      "confidence": 0.9462853670120239
+    },
+    {
+      "word": "showed",
+      "start_time": 29.86,
+      "end_time": 30.1,
+      "confidence": 0.9889679551124573
+    },
+    {
+      "word": "up",
+      "start_time": 30.1,
+      "end_time": 30.32,
+      "confidence": 0.9985758066177368
+    },
+    {
+      "word": "anyway,",
+      "start_time": 30.32,
+      "end_time": 30.68,
+      "confidence": 0.9741131067276001
+    },
+    {
+      "word": "forcing",
+      "start_time": 31.16,
+      "end_time": 31.42,
+      "confidence": 0.9908998012542725
+    },
+    {
+      "word": "their",
+      "start_time": 31.42,
+      "end_time": 31.64,
+      "confidence": 0.9891980290412903
+    },
+    {
+      "word": "way",
+      "start_time": 31.64,
+      "end_time": 31.84,
+      "confidence": 0.9973254203796387
+    },
+    {
+      "word": "into",
+      "start_time": 31.84,
+      "end_time": 32.14,
+      "confidence": 0.9743890762329102
+    },
+    {
+      "word": "the",
+      "start_time": 32.14,
+      "end_time": 32.3,
+      "confidence": 0.9858485460281372
+    },
+    {
+      "word": "hospital",
+      "start_time": 32.3,
+      "end_time": 32.64,
+      "confidence": 0.9910626411437988
+    },
+    {
+      "word": "room.",
+      "start_time": 32.64,
+      "end_time": 33.1,
+      "confidence": 0.9927350282669067
+    },
+    {
+      "word": "When",
+      "start_time": 33.9,
+      "end_time": 34.16,
+      "confidence": 0.9375050663948059
+    },
+    {
+      "word": "I",
+      "start_time": 34.16,
+      "end_time": 34.28,
+      "confidence": 0.9861212372779846
+    },
+    {
+      "word": "tried",
+      "start_time": 34.28,
+      "end_time": 34.56,
+      "confidence": 0.8883140683174133
+    },
+    {
+      "word": "to",
+      "start_time": 34.56,
+      "end_time": 34.74,
+      "confidence": 0.9982049465179443
+    },
+    {
+      "word": "limit",
+      "start_time": 34.74,
+      "end_time": 34.92,
+      "confidence": 0.9765824675559998
+    },
+    {
+      "word": "visitors,",
+      "start_time": 34.92,
+      "end_time": 35.36,
+      "confidence": 0.9769060015678406
+    },
+    {
+      "word": "they",
+      "start_time": 35.88,
+      "end_time": 35.96,
+      "confidence": 0.9926130771636963
+    },
+    {
+      "word": "called",
+      "start_time": 35.96,
+      "end_time": 36.18,
+      "confidence": 0.9968668818473816
+    },
+    {
+      "word": "me",
+      "start_time": 36.18,
+      "end_time": 36.42,
+      "confidence": 0.9942785501480103
+    },
+    {
+      "word": "manipulative.",
+      "start_time": 36.42,
+      "end_time": 37.06,
+      "confidence": 0.9404171407222748
+    },
+    {
+      "word": "Now,",
+      "start_time": 37.94,
+      "end_time": 38.44,
+      "confidence": 0.9183333516120911
+    },
+    {
+      "word": "my",
+      "start_time": 38.8,
+      "end_time": 38.92,
+      "confidence": 0.9895989894866943
+    },
+    {
+      "word": "husband",
+      "start_time": 38.92,
+      "end_time": 39.26,
+      "confidence": 0.9991410970687866
+    },
+    {
+      "word": "is",
+      "start_time": 39.26,
+      "end_time": 39.48,
+      "confidence": 0.9985013008117676
+    },
+    {
+      "word": "saying",
+      "start_time": 39.48,
+      "end_time": 39.74,
+      "confidence": 0.997147262096405
+    },
+    {
+      "word": "the",
+      "start_time": 39.74,
+      "end_time": 39.92,
+      "confidence": 0.9983446598052979
+    },
+    {
+      "word": "same",
+      "start_time": 39.92,
+      "end_time": 40.16,
+      "confidence": 0.9976406097412109
+    },
+    {
+      "word": "things,",
+      "start_time": 40.16,
+      "end_time": 40.66,
+      "confidence": 0.9656324982643127
+    },
+    {
+      "word": "that",
+      "start_time": 40.98,
+      "end_time": 41.1,
+      "confidence": 0.9762762784957886
+    },
+    {
+      "word": "I'm",
+      "start_time": 41.1,
+      "end_time": 41.3,
+      "confidence": 0.9495033025741577
+    },
+    {
+      "word": "vindictive",
+      "start_time": 41.3,
+      "end_time": 41.88,
+      "confidence": 0.9735263586044312
+    },
+    {
+      "word": "and",
+      "start_time": 41.88,
+      "end_time": 42.0,
+      "confidence": 0.771854043006897
+    },
+    {
+      "word": "keeping",
+      "start_time": 42.0,
+      "end_time": 42.24,
+      "confidence": 0.9931453466415405
+    },
+    {
+      "word": "our",
+      "start_time": 42.24,
+      "end_time": 42.48,
+      "confidence": 0.9921045303344727
+    },
+    {
+      "word": "grandchild",
+      "start_time": 42.48,
+      "end_time": 43.02,
+      "confidence": 0.9643625020980835
+    },
+    {
+      "word": "away.",
+      "start_time": 43.02,
+      "end_time": 43.34,
+      "confidence": 0.9934252500534058
+    },
+    {
+      "word": "This",
+      "start_time": 44.26,
+      "end_time": 44.62,
+      "confidence": 0.9787449836730957
+    },
+    {
+      "word": "isn't",
+      "start_time": 44.62,
+      "end_time": 44.98,
+      "confidence": 0.9971231818199158
+    },
+    {
+      "word": "just",
+      "start_time": 44.98,
+      "end_time": 45.14,
+      "confidence": 0.9973741769790649
+    },
+    {
+      "word": "about",
+      "start_time": 45.14,
+      "end_time": 45.4,
+      "confidence": 0.9986758828163147
+    },
+    {
+      "word": "our",
+      "start_time": 45.4,
+      "end_time": 45.58,
+      "confidence": 0.9952806830406189
+    },
+    {
+      "word": "daughter's",
+      "start_time": 45.58,
+      "end_time": 46.02,
+      "confidence": 0.9529821574687958
+    },
+    {
+      "word": "visitations,",
+      "start_time": 46.02,
+      "end_time": 46.7,
+      "confidence": 0.9626662731170654
+    },
+    {
+      "word": "it's",
+      "start_time": 47.12,
+      "end_time": 47.3,
+      "confidence": 0.9742364585399628
+    },
+    {
+      "word": "about",
+      "start_time": 47.3,
+      "end_time": 47.48,
+      "confidence": 0.9987879395484924
+    },
+    {
+      "word": "feeling",
+      "start_time": 47.48,
+      "end_time": 47.82,
+      "confidence": 0.9937047362327576
+    },
+    {
+      "word": "like",
+      "start_time": 47.82,
+      "end_time": 48.06,
+      "confidence": 0.9991070628166199
+    },
+    {
+      "word": "a",
+      "start_time": 48.06,
+      "end_time": 48.2,
+      "confidence": 0.9970629811286926
+    },
+    {
+      "word": "roommate",
+      "start_time": 48.2,
+      "end_time": 48.48,
+      "confidence": 0.9719552993774414
+    },
+    {
+      "word": "in",
+      "start_time": 48.48,
+      "end_time": 48.76,
+      "confidence": 0.9981014132499695
+    },
+    {
+      "word": "our",
+      "start_time": 48.76,
+      "end_time": 48.88,
+      "confidence": 0.9823268055915833
+    },
+    {
+      "word": "own",
+      "start_time": 48.88,
+      "end_time": 49.08,
+      "confidence": 0.9900187253952026
+    },
+    {
+      "word": "home.",
+      "start_time": 49.08,
+      "end_time": 49.42,
+      "confidence": 0.9979426264762878
+    },
+    {
+      "word": "My",
+      "start_time": 50.36,
+      "end_time": 50.52,
+      "confidence": 0.9469329118728638
+    },
+    {
+      "word": "husband",
+      "start_time": 50.52,
+      "end_time": 50.9,
+      "confidence": 0.9986836314201355
+    },
+    {
+      "word": "doesn't",
+      "start_time": 50.9,
+      "end_time": 51.28,
+      "confidence": 0.9983594119548798
+    },
+    {
+      "word": "defend",
+      "start_time": 51.28,
+      "end_time": 51.56,
+      "confidence": 0.9876413941383362
+    },
+    {
+      "word": "me",
+      "start_time": 51.56,
+      "end_time": 51.8,
+      "confidence": 0.996702253818512
+    },
+    {
+      "word": "emotionally,",
+      "start_time": 51.8,
+      "end_time": 52.26,
+      "confidence": 0.9937887787818909
+    },
+    {
+      "word": "even",
+      "start_time": 52.72,
+      "end_time": 52.92,
+      "confidence": 0.9977705478668213
+    },
+    {
+      "word": "when",
+      "start_time": 52.92,
+      "end_time": 53.08,
+      "confidence": 0.9962081909179688
+    },
+    {
+      "word": "I",
+      "start_time": 53.08,
+      "end_time": 53.2,
+      "confidence": 0.9926601052284241
+    },
+    {
+      "word": "need",
+      "start_time": 53.2,
+      "end_time": 53.4,
+      "confidence": 0.9877263903617859
+    },
+    {
+      "word": "him",
+      "start_time": 53.4,
+      "end_time": 53.54,
+      "confidence": 0.9977374076843262
+    },
+    {
+      "word": "most.",
+      "start_time": 53.54,
+      "end_time": 53.94,
+      "confidence": 0.9894088506698608
+    },
+    {
+      "word": "Like",
+      "start_time": 54.559999999999995,
+      "end_time": 55.12,
+      "confidence": 0.13135312497615814
+    },
+    {
+      "word": "when",
+      "start_time": 55.12,
+      "end_time": 55.32,
+      "confidence": 0.9711689949035645
+    },
+    {
+      "word": "my",
+      "start_time": 55.32,
+      "end_time": 55.46,
+      "confidence": 0.9979363679885864
+    },
+    {
+      "word": "dad",
+      "start_time": 55.46,
+      "end_time": 55.68,
+      "confidence": 0.9521402716636658
+    },
+    {
+      "word": "passed",
+      "start_time": 55.68,
+      "end_time": 56.12,
+      "confidence": 0.9963937401771545
+    },
+    {
+      "word": "away,",
+      "start_time": 56.12,
+      "end_time": 56.42,
+      "confidence": 0.999459445476532
+    },
+    {
+      "word": "he",
+      "start_time": 56.82,
+      "end_time": 56.94,
+      "confidence": 0.9906762838363647
+    },
+    {
+      "word": "waited",
+      "start_time": 56.94,
+      "end_time": 57.2,
+      "confidence": 0.976850152015686
+    },
+    {
+      "word": "two",
+      "start_time": 57.2,
+      "end_time": 57.48,
+      "confidence": 0.8380252718925476
+    },
+    {
+      "word": "days",
+      "start_time": 57.48,
+      "end_time": 57.76,
+      "confidence": 0.9991723299026489
+    },
+    {
+      "word": "before",
+      "start_time": 57.76,
+      "end_time": 58.12,
+      "confidence": 0.997752845287323
+    },
+    {
+      "word": "showing",
+      "start_time": 58.12,
+      "end_time": 58.48,
+      "confidence": 0.9932751655578613
+    },
+    {
+      "word": "up",
+      "start_time": 58.48,
+      "end_time": 58.7,
+      "confidence": 0.9983748197555542
+    },
+    {
+      "word": "to",
+      "start_time": 58.7,
+      "end_time": 58.86,
+      "confidence": 0.9987515211105347
+    },
+    {
+      "word": "comfort",
+      "start_time": 58.86,
+      "end_time": 59.14,
+      "confidence": 0.9938890933990479
+    },
+    {
+      "word": "me",
+      "start_time": 59.14,
+      "end_time": 59.32,
+      "confidence": 0.9989049434661865
+    },
+    {
+      "word": "after",
+      "start_time": 59.32,
+      "end_time": 59.6,
+      "confidence": 0.9970934391021729
+    },
+    {
+      "word": "playing",
+      "start_time": 59.6,
+      "end_time": 59.9,
+      "confidence": 0.9946820139884949
+    },
+    {
+      "word": "tennis",
+      "start_time": 59.9,
+      "end_time": 60.2,
+      "confidence": 0.9930818676948547
+    },
+    {
+      "word": "with",
+      "start_time": 60.2,
+      "end_time": 60.46,
+      "confidence": 0.9987096786499023
+    },
+    {
+      "word": "his",
+      "start_time": 60.46,
+      "end_time": 60.58,
+      "confidence": 0.9986366629600525
+    },
+    {
+      "word": "best",
+      "start_time": 60.58,
+      "end_time": 60.76,
+      "confidence": 0.9993481040000916
+    },
+    {
+      "word": "friend.",
+      "start_time": 60.76,
+      "end_time": 61.24,
+      "confidence": 0.9953001737594604
+    },
+    {
+      "word": "The",
+      "start_time": 62.22,
+      "end_time": 62.36,
+      "confidence": 0.9426603317260742
+    },
+    {
+      "word": "lack",
+      "start_time": 62.36,
+      "end_time": 62.6,
+      "confidence": 0.9886460304260254
+    },
+    {
+      "word": "of",
+      "start_time": 62.6,
+      "end_time": 62.82,
+      "confidence": 0.9994426369667053
+    },
+    {
+      "word": "intimacy",
+      "start_time": 62.82,
+      "end_time": 63.2,
+      "confidence": 0.9938795566558838
+    },
+    {
+      "word": "is",
+      "start_time": 63.2,
+      "end_time": 63.5,
+      "confidence": 0.9990436434745789
+    },
+    {
+      "word": "suffocating.",
+      "start_time": 63.5,
+      "end_time": 64.1,
+      "confidence": 0.9930319587389628
+    },
+    {
+      "word": "We've",
+      "start_time": 65.0,
+      "end_time": 65.34,
+      "confidence": 0.9636586010456085
+    },
+    {
+      "word": "tried",
+      "start_time": 65.34,
+      "end_time": 65.56,
+      "confidence": 0.9979895353317261
+    },
+    {
+      "word": "sending",
+      "start_time": 65.56,
+      "end_time": 65.96,
+      "confidence": 0.9960117340087891
+    },
+    {
+      "word": "flirty",
+      "start_time": 65.96,
+      "end_time": 66.34,
+      "confidence": 0.8038915991783142
+    },
+    {
+      "word": "texts,",
+      "start_time": 66.34,
+      "end_time": 66.82,
+      "confidence": 0.9943646192550659
+    },
+    {
+      "word": "but",
+      "start_time": 67.14,
+      "end_time": 67.24,
+      "confidence": 0.998371422290802
+    },
+    {
+      "word": "he",
+      "start_time": 67.24,
+      "end_time": 67.36,
+      "confidence": 0.9964960217475891
+    },
+    {
+      "word": "just",
+      "start_time": 67.36,
+      "end_time": 67.56,
+      "confidence": 0.9990123510360718
+    },
+    {
+      "word": "laughs",
+      "start_time": 67.56,
+      "end_time": 67.86,
+      "confidence": 0.9649714827537537
+    },
+    {
+      "word": "them",
+      "start_time": 67.86,
+      "end_time": 68.18,
+      "confidence": 0.9984502792358398
+    },
+    {
+      "word": "off.",
+      "start_time": 68.18,
+      "end_time": 68.48,
+      "confidence": 0.9977612495422363
+    },
+    {
+      "word": "He",
+      "start_time": 69.3,
+      "end_time": 69.66,
+      "confidence": 0.9904953241348267
+    },
+    {
+      "word": "says",
+      "start_time": 69.66,
+      "end_time": 69.88,
+      "confidence": 0.99759441614151
+    },
+    {
+      "word": "he's",
+      "start_time": 69.88,
+      "end_time": 70.18,
+      "confidence": 0.9933855533599854
+    },
+    {
+      "word": "too",
+      "start_time": 70.18,
+      "end_time": 70.34,
+      "confidence": 0.9976396560668945
+    },
+    {
+      "word": "busy",
+      "start_time": 70.34,
+      "end_time": 70.56,
+      "confidence": 0.9980847835540771
+    },
+    {
+      "word": "working",
+      "start_time": 70.56,
+      "end_time": 71.0,
+      "confidence": 0.9982059001922607
+    },
+    {
+      "word": "and",
+      "start_time": 71.0,
+      "end_time": 71.2,
+      "confidence": 0.9749988317489624
+    },
+    {
+      "word": "providing",
+      "start_time": 71.2,
+      "end_time": 71.54,
+      "confidence": 0.9977402687072754
+    },
+    {
+      "word": "for",
+      "start_time": 71.54,
+      "end_time": 71.82,
+      "confidence": 0.9991528987884521
+    },
+    {
+      "word": "us",
+      "start_time": 71.82,
+      "end_time": 72.0,
+      "confidence": 0.9990691542625427
+    },
+    {
+      "word": "financially,",
+      "start_time": 72.0,
+      "end_time": 72.58,
+      "confidence": 0.998319685459137
+    },
+    {
+      "word": "but",
+      "start_time": 72.96,
+      "end_time": 73.1,
+      "confidence": 0.9972211122512817
+    },
+    {
+      "word": "that",
+      "start_time": 73.1,
+      "end_time": 73.26,
+      "confidence": 0.9990777969360352
+    },
+    {
+      "word": "doesn't",
+      "start_time": 73.26,
+      "end_time": 73.6,
+      "confidence": 0.9992389976978302
+    },
+    {
+      "word": "feel",
+      "start_time": 73.6,
+      "end_time": 73.78,
+      "confidence": 0.9985815286636353
+    },
+    {
+      "word": "like",
+      "start_time": 73.78,
+      "end_time": 73.98,
+      "confidence": 0.9991402626037598
+    },
+    {
+      "word": "an",
+      "start_time": 73.98,
+      "end_time": 74.12,
+      "confidence": 0.9986677169799805
+    },
+    {
+      "word": "excuse",
+      "start_time": 74.12,
+      "end_time": 74.44,
+      "confidence": 0.996776282787323
+    },
+    {
+      "word": "when",
+      "start_time": 74.44,
+      "end_time": 74.76,
+      "confidence": 0.9983108043670654
+    },
+    {
+      "word": "our",
+      "start_time": 74.76,
+      "end_time": 74.86,
+      "confidence": 0.9985736608505249
+    },
+    {
+      "word": "marriage",
+      "start_time": 74.86,
+      "end_time": 75.16,
+      "confidence": 0.9963788390159607
+    },
+    {
+      "word": "is",
+      "start_time": 75.16,
+      "end_time": 75.38,
+      "confidence": 0.9992945194244385
+    },
+    {
+      "word": "struggling.",
+      "start_time": 75.38,
+      "end_time": 75.76,
+      "confidence": 0.9972112774848938
+    },
+    {
+      "word": "I'm",
+      "start_time": 76.68,
+      "end_time": 77.04,
+      "confidence": 0.9757475554943085
+    },
+    {
+      "word": "trying",
+      "start_time": 77.04,
+      "end_time": 77.26,
+      "confidence": 0.9985242486000061
+    },
+    {
+      "word": "to",
+      "start_time": 77.26,
+      "end_time": 77.44,
+      "confidence": 0.9993784427642822
+    },
+    {
+      "word": "salvage",
+      "start_time": 77.44,
+      "end_time": 77.86,
+      "confidence": 0.9975669384002686
+    },
+    {
+      "word": "what's",
+      "start_time": 77.86,
+      "end_time": 78.16,
+      "confidence": 0.9965854585170746
+    },
+    {
+      "word": "left",
+      "start_time": 78.16,
+      "end_time": 78.3,
+      "confidence": 0.9987919926643372
+    },
+    {
+      "word": "of",
+      "start_time": 78.3,
+      "end_time": 78.5,
+      "confidence": 0.999235987663269
+    },
+    {
+      "word": "our",
+      "start_time": 78.5,
+      "end_time": 78.62,
+      "confidence": 0.9982163310050964
+    },
+    {
+      "word": "relationship",
+      "start_time": 78.62,
+      "end_time": 79.24,
+      "confidence": 0.9964815378189087
+    },
+    {
+      "word": "with",
+      "start_time": 79.24,
+      "end_time": 79.48,
+      "confidence": 0.9989421963691711
+    },
+    {
+      "word": "the",
+      "start_time": 79.48,
+      "end_time": 79.6,
+      "confidence": 0.9964092373847961
+    },
+    {
+      "word": "help",
+      "start_time": 79.6,
+      "end_time": 79.76,
+      "confidence": 0.9935425519943237
+    },
+    {
+      "word": "of",
+      "start_time": 79.76,
+      "end_time": 79.96,
+      "confidence": 0.9991088509559631
+    },
+    {
+      "word": "a",
+      "start_time": 79.96,
+      "end_time": 80.02,
+      "confidence": 0.9964841604232788
+    },
+    {
+      "word": "marital",
+      "start_time": 80.02,
+      "end_time": 80.36,
+      "confidence": 0.8692477345466614
+    },
+    {
+      "word": "counselor.",
+      "start_time": 80.36,
+      "end_time": 80.84,
+      "confidence": 0.9384393692016602
+    },
+    {
+      "word": "But",
+      "start_time": 81.53999999999999,
+      "end_time": 82.02,
+      "confidence": 0.3652505874633789
+    },
+    {
+      "word": "every",
+      "start_time": 82.02,
+      "end_time": 82.32,
+      "confidence": 0.94901043176651
+    },
+    {
+      "word": "time",
+      "start_time": 82.32,
+      "end_time": 82.56,
+      "confidence": 0.9974942207336426
+    },
+    {
+      "word": "I",
+      "start_time": 82.56,
+      "end_time": 82.74,
+      "confidence": 0.9754730463027954
+    },
+    {
+      "word": "bring",
+      "start_time": 82.74,
+      "end_time": 82.92,
+      "confidence": 0.9935134053230286
+    },
+    {
+      "word": "up",
+      "start_time": 82.92,
+      "end_time": 83.12,
+      "confidence": 0.9965882301330566
+    },
+    {
+      "word": "issues,",
+      "start_time": 83.12,
+      "end_time": 83.44,
+      "confidence": 0.9974568486213684
+    },
+    {
+      "word": "it",
+      "start_time": 83.96,
+      "end_time": 84.06,
+      "confidence": 0.9883270859718323
+    },
+    {
+      "word": "feels",
+      "start_time": 84.06,
+      "end_time": 84.32,
+      "confidence": 0.9968714118003845
+    },
+    {
+      "word": "like",
+      "start_time": 84.32,
+      "end_time": 84.56,
+      "confidence": 0.9993554949760437
+    },
+    {
+      "word": "throwing",
+      "start_time": 84.56,
+      "end_time": 84.88,
+      "confidence": 0.9962602853775024
+    },
+    {
+      "word": "words",
+      "start_time": 84.88,
+      "end_time": 85.24,
+      "confidence": 0.9919369220733643
+    },
+    {
+      "word": "at",
+      "start_time": 85.24,
+      "end_time": 85.44,
+      "confidence": 0.9987810254096985
+    },
+    {
+      "word": "a",
+      "start_time": 85.44,
+      "end_time": 85.56,
+      "confidence": 0.9969210624694824
+    },
+    {
+      "word": "wall.",
+      "start_time": 85.56,
+      "end_time": 85.74,
+      "confidence": 0.9916667342185974
+    },
+    {
+      "word": "I",
+      "start_time": 86.54,
+      "end_time": 87.02,
+      "confidence": 0.9641715884208679
+    },
+    {
+      "word": "want",
+      "start_time": 87.02,
+      "end_time": 87.18,
+      "confidence": 0.9973026514053345
+    },
+    {
+      "word": "to",
+      "start_time": 87.18,
+      "end_time": 87.34,
+      "confidence": 0.9954403638839722
+    },
+    {
+      "word": "feel",
+      "start_time": 87.34,
+      "end_time": 87.5,
+      "confidence": 0.9991247057914734
+    },
+    {
+      "word": "wanted",
+      "start_time": 87.5,
+      "end_time": 87.88,
+      "confidence": 0.8201079368591309
+    },
+    {
+      "word": "by",
+      "start_time": 87.88,
+      "end_time": 88.04,
+      "confidence": 0.9969478249549866
+    },
+    {
+      "word": "my",
+      "start_time": 88.04,
+      "end_time": 88.22,
+      "confidence": 0.9986708164215088
+    },
+    {
+      "word": "husband",
+      "start_time": 88.22,
+      "end_time": 88.58,
+      "confidence": 0.9995083808898926
+    },
+    {
+      "word": "again,",
+      "start_time": 88.58,
+      "end_time": 88.94,
+      "confidence": 0.9970292448997498
+    },
+    {
+      "word": "but",
+      "start_time": 89.36,
+      "end_time": 89.46,
+      "confidence": 0.9913314580917358
+    },
+    {
+      "word": "he",
+      "start_time": 89.46,
+      "end_time": 89.58,
+      "confidence": 0.9940233826637268
+    },
+    {
+      "word": "seems",
+      "start_time": 89.58,
+      "end_time": 89.9,
+      "confidence": 0.994857907295227
+    },
+    {
+      "word": "too",
+      "start_time": 89.9,
+      "end_time": 90.12,
+      "confidence": 0.8358868956565857
+    },
+    {
+      "word": "caught",
+      "start_time": 90.12,
+      "end_time": 90.36,
+      "confidence": 0.9984652996063232
+    },
+    {
+      "word": "up",
+      "start_time": 90.36,
+      "end_time": 90.58,
+      "confidence": 0.9985400438308716
+    },
+    {
+      "word": "in",
+      "start_time": 90.58,
+      "end_time": 90.68,
+      "confidence": 0.9984373450279236
+    },
+    {
+      "word": "his",
+      "start_time": 90.68,
+      "end_time": 90.84,
+      "confidence": 0.9979238510131836
+    },
+    {
+      "word": "own",
+      "start_time": 90.84,
+      "end_time": 91.02,
+      "confidence": 0.9973468780517578
+    },
+    {
+      "word": "world.",
+      "start_time": 91.02,
+      "end_time": 91.36,
+      "confidence": 0.9984690546989441
+    },
+    {
+      "word": "Is",
+      "start_time": 92.16,
+      "end_time": 92.58,
+      "confidence": 0.9897621273994446
+    },
+    {
+      "word": "this",
+      "start_time": 92.58,
+      "end_time": 92.72,
+      "confidence": 0.9978679418563843
+    },
+    {
+      "word": "relationship",
+      "start_time": 92.72,
+      "end_time": 93.36,
+      "confidence": 0.9944958090782166
+    },
+    {
+      "word": "even",
+      "start_time": 93.36,
+      "end_time": 93.72,
+      "confidence": 0.9966517090797424
+    },
+    {
+      "word": "worth",
+      "start_time": 93.72,
+      "end_time": 94.0,
+      "confidence": 0.9973644614219666
+    },
+    {
+      "word": "saving,",
+      "start_time": 94.0,
+      "end_time": 94.34,
+      "confidence": 0.9895973801612854
+    },
+    {
+      "word": "or",
+      "start_time": 94.74,
+      "end_time": 94.86,
+      "confidence": 0.9970147609710693
+    },
+    {
+      "word": "is",
+      "start_time": 94.86,
+      "end_time": 95.02,
+      "confidence": 0.99866783618927
+    },
+    {
+      "word": "it",
+      "start_time": 95.02,
+      "end_time": 95.1,
+      "confidence": 0.9992954730987549
+    },
+    {
+      "word": "just",
+      "start_time": 95.1,
+      "end_time": 95.26,
+      "confidence": 0.998803973197937
+    },
+    {
+      "word": "slowly",
+      "start_time": 95.26,
+      "end_time": 95.78,
+      "confidence": 0.9936169385910034
+    },
+    {
+      "word": "crashing?",
+      "start_time": 95.78,
+      "end_time": 96.2,
+      "confidence": 0.9934341907501221
+    }
+  ],
+  "duration": 96.2,
+  "language": "en"
+}

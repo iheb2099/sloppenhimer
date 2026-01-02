@@ -170,7 +170,6 @@ class KaraokeCaptions:
             # For now, we'll use a simple approach with colored text overlay
 
         return clips
-
     def generate_captions(
         self,
         transcript: Transcript,
@@ -187,7 +186,7 @@ class KaraokeCaptions:
             List of TextClip objects
         """
         all_clips = []
-        segments = transcript.get_segments(self.settings.caption.words_per_group)
+        segments = transcript.get_segments_v2()
 
         logger.info(f"Generating captions for {len(segments)} segments")
 
@@ -198,10 +197,10 @@ class KaraokeCaptions:
         return all_clips
 
     def _create_simple_karaoke(
-        self,
-        segment: CaptionSegment,
-        video_size: tuple[int, int],
-    ) -> list:
+    self,
+    segment: CaptionSegment,
+    video_size: tuple[int, int],
+) -> list:
         """
         Create simple karaoke captions - show segment text, highlight current word.
 
@@ -209,21 +208,15 @@ class KaraokeCaptions:
         """
         clips = []
         width, height = video_size
-        y_pos = int(height * 0.5)
-
-        # Calculate rough character widths for positioning
-        # This is approximate - proper implementation would measure text
+        
         full_text = " ".join(w.word for w in segment.words)
 
         for i, word in enumerate(segment.words):
-            # Create the full segment text with current word highlighted
-            text_parts = []
-            for j, w in enumerate(segment.words):
-                text_parts.append(w.word)
-
-            # Create clip showing full text
+            # Add space above and below to prevent clipping
+            padded_text = f" \n{full_text}\n "
+            
             clip = TextClip(
-                text=full_text,
+                text=padded_text,
                 font_size=self.settings.caption.font_size,
                 color=self.settings.caption.color,
                 font=self.settings.caption.font,
@@ -233,16 +226,12 @@ class KaraokeCaptions:
                 size=(width - 80, None),
                 text_align="center",
             )
-
-            clip = (
-                clip
-                .with_position(("center", y_pos))
-                .with_start(word.start_time)
-                .with_end(word.end_time)
-            )
-
+            
+            y_pos = int(height * 0.5 - clip.h * 0.5)
+            
+            clip = clip.with_position(("center", y_pos)).with_start(word.start_time).with_end(word.end_time)
             clips.append(clip)
-
+    
         return clips
 
     def apply_captions(

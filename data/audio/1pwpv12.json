@@ -1,0 +1,2340 @@
+{
+  "words": [
+    {
+      "word": "I",
+      "start_time": 0.0,
+      "end_time": 0.3,
+      "confidence": 0.7321587204933167
+    },
+    {
+      "word": "work",
+      "start_time": 0.3,
+      "end_time": 0.5,
+      "confidence": 0.9507550597190857
+    },
+    {
+      "word": "at",
+      "start_time": 0.5,
+      "end_time": 0.7,
+      "confidence": 0.9971696734428406
+    },
+    {
+      "word": "a",
+      "start_time": 0.7,
+      "end_time": 0.76,
+      "confidence": 0.9936922788619995
+    },
+    {
+      "word": "liquor",
+      "start_time": 0.76,
+      "end_time": 0.94,
+      "confidence": 0.9777362942695618
+    },
+    {
+      "word": "store",
+      "start_time": 0.94,
+      "end_time": 1.24,
+      "confidence": 0.9978797435760498
+    },
+    {
+      "word": "on",
+      "start_time": 1.24,
+      "end_time": 1.52,
+      "confidence": 0.9960294961929321
+    },
+    {
+      "word": "Christmas",
+      "start_time": 1.52,
+      "end_time": 1.82,
+      "confidence": 0.9463074803352356
+    },
+    {
+      "word": "Day,",
+      "start_time": 1.82,
+      "end_time": 2.16,
+      "confidence": 0.6477921605110168
+    },
+    {
+      "word": "which",
+      "start_time": 2.54,
+      "end_time": 2.7,
+      "confidence": 0.9964073300361633
+    },
+    {
+      "word": "is",
+      "start_time": 2.7,
+      "end_time": 2.82,
+      "confidence": 0.9985665678977966
+    },
+    {
+      "word": "usually",
+      "start_time": 2.82,
+      "end_time": 3.16,
+      "confidence": 0.9976567029953003
+    },
+    {
+      "word": "pretty",
+      "start_time": 3.16,
+      "end_time": 3.46,
+      "confidence": 0.998358428478241
+    },
+    {
+      "word": "slow.",
+      "start_time": 3.46,
+      "end_time": 3.92,
+      "confidence": 0.9923537969589233
+    },
+    {
+      "word": "As",
+      "start_time": 4.52,
+      "end_time": 5.06,
+      "confidence": 0.962432861328125
+    },
+    {
+      "word": "my",
+      "start_time": 5.06,
+      "end_time": 5.24,
+      "confidence": 0.9959676265716553
+    },
+    {
+      "word": "shift",
+      "start_time": 5.24,
+      "end_time": 5.54,
+      "confidence": 0.992478609085083
+    },
+    {
+      "word": "drew",
+      "start_time": 5.54,
+      "end_time": 5.82,
+      "confidence": 0.9698571562767029
+    },
+    {
+      "word": "to",
+      "start_time": 5.82,
+      "end_time": 6.02,
+      "confidence": 0.9962419271469116
+    },
+    {
+      "word": "a",
+      "start_time": 6.02,
+      "end_time": 6.12,
+      "confidence": 0.9979263544082642
+    },
+    {
+      "word": "close,",
+      "start_time": 6.12,
+      "end_time": 6.42,
+      "confidence": 0.8394824266433716
+    },
+    {
+      "word": "I",
+      "start_time": 6.94,
+      "end_time": 7.06,
+      "confidence": 0.9829258918762207
+    },
+    {
+      "word": "and",
+      "start_time": 7.06,
+      "end_time": 7.2,
+      "confidence": 0.996369481086731
+    },
+    {
+      "word": "my",
+      "start_time": 7.2,
+      "end_time": 7.3,
+      "confidence": 0.9594826102256775
+    },
+    {
+      "word": "coworker",
+      "start_time": 7.3,
+      "end_time": 7.82,
+      "confidence": 0.920015275478363
+    },
+    {
+      "word": "were",
+      "start_time": 7.82,
+      "end_time": 7.96,
+      "confidence": 0.9972533583641052
+    },
+    {
+      "word": "bored",
+      "start_time": 7.96,
+      "end_time": 8.22,
+      "confidence": 0.960365355014801
+    },
+    {
+      "word": "out",
+      "start_time": 8.22,
+      "end_time": 8.44,
+      "confidence": 0.9966639876365662
+    },
+    {
+      "word": "of",
+      "start_time": 8.44,
+      "end_time": 8.5,
+      "confidence": 0.996358335018158
+    },
+    {
+      "word": "our",
+      "start_time": 8.5,
+      "end_time": 8.62,
+      "confidence": 0.9979137778282166
+    },
+    {
+      "word": "minds,",
+      "start_time": 8.62,
+      "end_time": 8.98,
+      "confidence": 0.9534680247306824
+    },
+    {
+      "word": "so",
+      "start_time": 9.34,
+      "end_time": 9.5,
+      "confidence": 0.9941378831863403
+    },
+    {
+      "word": "we",
+      "start_time": 9.5,
+      "end_time": 9.64,
+      "confidence": 0.9971848130226135
+    },
+    {
+      "word": "started",
+      "start_time": 9.64,
+      "end_time": 9.94,
+      "confidence": 0.9970871806144714
+    },
+    {
+      "word": "having",
+      "start_time": 9.94,
+      "end_time": 10.24,
+      "confidence": 0.998276948928833
+    },
+    {
+      "word": "fun.",
+      "start_time": 10.24,
+      "end_time": 10.54,
+      "confidence": 0.9996598958969116
+    },
+    {
+      "word": "We",
+      "start_time": 11.32,
+      "end_time": 11.78,
+      "confidence": 0.9843624830245972
+    },
+    {
+      "word": "took",
+      "start_time": 11.78,
+      "end_time": 11.96,
+      "confidence": 0.9967505931854248
+    },
+    {
+      "word": "turns",
+      "start_time": 11.96,
+      "end_time": 12.3,
+      "confidence": 0.9704472422599792
+    },
+    {
+      "word": "scanning",
+      "start_time": 12.3,
+      "end_time": 12.62,
+      "confidence": 0.9852838516235352
+    },
+    {
+      "word": "the",
+      "start_time": 12.62,
+      "end_time": 12.84,
+      "confidence": 0.9976046085357666
+    },
+    {
+      "word": "same",
+      "start_time": 12.84,
+      "end_time": 13.12,
+      "confidence": 0.9982427358627319
+    },
+    {
+      "word": "tiny",
+      "start_time": 13.12,
+      "end_time": 13.42,
+      "confidence": 0.9948766827583313
+    },
+    {
+      "word": "bottle",
+      "start_time": 13.42,
+      "end_time": 13.76,
+      "confidence": 0.9971718192100525
+    },
+    {
+      "word": "of",
+      "start_time": 13.76,
+      "end_time": 13.94,
+      "confidence": 0.9969103932380676
+    },
+    {
+      "word": "alcohol,",
+      "start_time": 13.94,
+      "end_time": 14.26,
+      "confidence": 0.9950066804885864
+    },
+    {
+      "word": "just",
+      "start_time": 14.76,
+      "end_time": 14.92,
+      "confidence": 0.9963535070419312
+    },
+    {
+      "word": "to",
+      "start_time": 14.92,
+      "end_time": 15.08,
+      "confidence": 0.999396800994873
+    },
+    {
+      "word": "keep",
+      "start_time": 15.08,
+      "end_time": 15.24,
+      "confidence": 0.9993718266487122
+    },
+    {
+      "word": "the",
+      "start_time": 15.24,
+      "end_time": 15.42,
+      "confidence": 0.998586893081665
+    },
+    {
+      "word": "joke",
+      "start_time": 15.42,
+      "end_time": 15.6,
+      "confidence": 0.938877522945404
+    },
+    {
+      "word": "going.",
+      "start_time": 15.6,
+      "end_time": 16.02,
+      "confidence": 0.9956120252609253
+    },
+    {
+      "word": "Then,",
+      "start_time": 16.96,
+      "end_time": 17.34,
+      "confidence": 0.9678373336791992
+    },
+    {
+      "word": "we",
+      "start_time": 17.64,
+      "end_time": 17.76,
+      "confidence": 0.996113657951355
+    },
+    {
+      "word": "decided",
+      "start_time": 17.76,
+      "end_time": 18.1,
+      "confidence": 0.9983363747596741
+    },
+    {
+      "word": "to",
+      "start_time": 18.1,
+      "end_time": 18.36,
+      "confidence": 0.9989400506019592
+    },
+    {
+      "word": "take",
+      "start_time": 18.36,
+      "end_time": 18.54,
+      "confidence": 0.9976969361305237
+    },
+    {
+      "word": "it",
+      "start_time": 18.54,
+      "end_time": 18.68,
+      "confidence": 0.9974849224090576
+    },
+    {
+      "word": "up",
+      "start_time": 18.68,
+      "end_time": 18.82,
+      "confidence": 0.9948935508728027
+    },
+    {
+      "word": "a",
+      "start_time": 18.82,
+      "end_time": 18.9,
+      "confidence": 0.9906979203224182
+    },
+    {
+      "word": "notch.",
+      "start_time": 18.9,
+      "end_time": 19.18,
+      "confidence": 0.9883434176445007
+    },
+    {
+      "word": "My",
+      "start_time": 20.36,
+      "end_time": 20.46,
+      "confidence": 0.9173431992530823
+    },
+    {
+      "word": "coworker",
+      "start_time": 20.46,
+      "end_time": 21.02,
+      "confidence": 0.9886465966701508
+    },
+    {
+      "word": "scanned",
+      "start_time": 21.02,
+      "end_time": 21.3,
+      "confidence": 0.9884548187255859
+    },
+    {
+      "word": "an",
+      "start_time": 21.3,
+      "end_time": 21.5,
+      "confidence": 0.9966259002685547
+    },
+    {
+      "word": "entire",
+      "start_time": 21.5,
+      "end_time": 21.86,
+      "confidence": 0.9995976090431213
+    },
+    {
+      "word": "box",
+      "start_time": 21.86,
+      "end_time": 22.18,
+      "confidence": 0.9991965889930725
+    },
+    {
+      "word": "of",
+      "start_time": 22.18,
+      "end_time": 22.46,
+      "confidence": 0.9987859129905701
+    },
+    {
+      "word": "pre",
+      "start_time": 22.46,
+      "end_time": 22.66,
+      "confidence": 0.8228316307067871
+    },
+    {
+      "word": "-made",
+      "start_time": 22.66,
+      "end_time": 22.86,
+      "confidence": 0.9255817830562592
+    },
+    {
+      "word": "shooters,",
+      "start_time": 22.86,
+      "end_time": 23.24,
+      "confidence": 0.9732038974761963
+    },
+    {
+      "word": "40",
+      "start_time": 23.84,
+      "end_time": 24.1,
+      "confidence": 0.7919354438781738
+    },
+    {
+      "word": "of",
+      "start_time": 24.1,
+      "end_time": 24.28,
+      "confidence": 0.9978612065315247
+    },
+    {
+      "word": "them",
+      "start_time": 24.28,
+      "end_time": 24.4,
+      "confidence": 0.9986411929130554
+    },
+    {
+      "word": "at",
+      "start_time": 24.4,
+      "end_time": 24.54,
+      "confidence": 0.9909518957138062
+    },
+    {
+      "word": "$3",
+      "start_time": 24.54,
+      "end_time": 25.08,
+      "confidence": 0.8318176865577698
+    },
+    {
+      "word": "each,",
+      "start_time": 25.08,
+      "end_time": 25.58,
+      "confidence": 0.976044774055481
+    },
+    {
+      "word": "several",
+      "start_time": 25.94,
+      "end_time": 26.24,
+      "confidence": 0.9968587160110474
+    },
+    {
+      "word": "times,",
+      "start_time": 26.24,
+      "end_time": 26.74,
+      "confidence": 0.9972569346427917
+    },
+    {
+      "word": "adding",
+      "start_time": 27.06,
+      "end_time": 27.26,
+      "confidence": 0.9911024570465088
+    },
+    {
+      "word": "to",
+      "start_time": 27.26,
+      "end_time": 27.44,
+      "confidence": 0.9951786994934082
+    },
+    {
+      "word": "the",
+      "start_time": 27.44,
+      "end_time": 27.56,
+      "confidence": 0.9961258769035339
+    },
+    {
+      "word": "total.",
+      "start_time": 27.56,
+      "end_time": 27.86,
+      "confidence": 0.9905380010604858
+    },
+    {
+      "word": "By",
+      "start_time": 28.48,
+      "end_time": 29.04,
+      "confidence": 0.2805006206035614
+    },
+    {
+      "word": "then,",
+      "start_time": 29.04,
+      "end_time": 29.38,
+      "confidence": 0.9948334693908691
+    },
+    {
+      "word": "our",
+      "start_time": 29.66,
+      "end_time": 29.76,
+      "confidence": 0.9894009232521057
+    },
+    {
+      "word": "running",
+      "start_time": 29.76,
+      "end_time": 30.04,
+      "confidence": 0.962285578250885
+    },
+    {
+      "word": "tally",
+      "start_time": 30.04,
+      "end_time": 30.42,
+      "confidence": 0.9086306989192963
+    },
+    {
+      "word": "was",
+      "start_time": 30.42,
+      "end_time": 30.62,
+      "confidence": 0.9977447986602783
+    },
+    {
+      "word": "something",
+      "start_time": 30.62,
+      "end_time": 30.92,
+      "confidence": 0.9955024123191833
+    },
+    {
+      "word": "like",
+      "start_time": 30.92,
+      "end_time": 31.12,
+      "confidence": 0.998813271522522
+    },
+    {
+      "word": "$2",
+      "start_time": 31.12,
+      "end_time": 31.38,
+      "confidence": 0.8260986804962158
+    },
+    {
+      "word": ",500.",
+      "start_time": 31.38,
+      "end_time": 32.28,
+      "confidence": 0.9917169511318207
+    },
+    {
+      "word": "We",
+      "start_time": 33.38,
+      "end_time": 33.94,
+      "confidence": 0.9837324023246765
+    },
+    {
+      "word": "were",
+      "start_time": 33.94,
+      "end_time": 34.1,
+      "confidence": 0.9987155199050903
+    },
+    {
+      "word": "cracking",
+      "start_time": 34.1,
+      "end_time": 34.4,
+      "confidence": 0.9746941924095154
+    },
+    {
+      "word": "up,",
+      "start_time": 34.4,
+      "end_time": 34.7,
+      "confidence": 0.9950768351554871
+    },
+    {
+      "word": "and",
+      "start_time": 35.02,
+      "end_time": 35.1,
+      "confidence": 0.9981461763381958
+    },
+    {
+      "word": "it",
+      "start_time": 35.1,
+      "end_time": 35.2,
+      "confidence": 0.9981853365898132
+    },
+    {
+      "word": "was",
+      "start_time": 35.2,
+      "end_time": 35.3,
+      "confidence": 0.9993370175361633
+    },
+    {
+      "word": "clear",
+      "start_time": 35.3,
+      "end_time": 35.62,
+      "confidence": 0.9983643889427185
+    },
+    {
+      "word": "we'd",
+      "start_time": 35.62,
+      "end_time": 35.94,
+      "confidence": 0.9833858907222748
+    },
+    {
+      "word": "done",
+      "start_time": 35.94,
+      "end_time": 36.06,
+      "confidence": 0.9966721534729004
+    },
+    {
+      "word": "enough",
+      "start_time": 36.06,
+      "end_time": 36.3,
+      "confidence": 0.9991746544837952
+    },
+    {
+      "word": "to",
+      "start_time": 36.3,
+      "end_time": 36.52,
+      "confidence": 0.9993560910224915
+    },
+    {
+      "word": "entertain",
+      "start_time": 36.52,
+      "end_time": 36.86,
+      "confidence": 0.9989369511604309
+    },
+    {
+      "word": "ourselves.",
+      "start_time": 36.86,
+      "end_time": 37.46,
+      "confidence": 0.9961052536964417
+    },
+    {
+      "word": "My",
+      "start_time": 38.52,
+      "end_time": 38.78,
+      "confidence": 0.49996131658554077
+    },
+    {
+      "word": "coworker",
+      "start_time": 38.78,
+      "end_time": 39.32,
+      "confidence": 0.8674467504024506
+    },
+    {
+      "word": "had",
+      "start_time": 39.32,
+      "end_time": 39.48,
+      "confidence": 0.9990610480308533
+    },
+    {
+      "word": "a",
+      "start_time": 39.48,
+      "end_time": 39.58,
+      "confidence": 0.9994207620620728
+    },
+    {
+      "word": "bright",
+      "start_time": 39.58,
+      "end_time": 39.76,
+      "confidence": 0.9859354496002197
+    },
+    {
+      "word": "idea",
+      "start_time": 39.76,
+      "end_time": 40.18,
+      "confidence": 0.9990389347076416
+    },
+    {
+      "word": "to",
+      "start_time": 40.18,
+      "end_time": 40.38,
+      "confidence": 0.9994094371795654
+    },
+    {
+      "word": "check",
+      "start_time": 40.38,
+      "end_time": 40.6,
+      "confidence": 0.9975602626800537
+    },
+    {
+      "word": "the",
+      "start_time": 40.6,
+      "end_time": 40.8,
+      "confidence": 0.9900840520858765
+    },
+    {
+      "word": "system",
+      "start_time": 40.8,
+      "end_time": 41.16,
+      "confidence": 0.9983304142951965
+    },
+    {
+      "word": "and",
+      "start_time": 41.16,
+      "end_time": 41.34,
+      "confidence": 0.9984226226806641
+    },
+    {
+      "word": "see",
+      "start_time": 41.34,
+      "end_time": 41.56,
+      "confidence": 0.9995085000991821
+    },
+    {
+      "word": "if",
+      "start_time": 41.56,
+      "end_time": 41.7,
+      "confidence": 0.9995355606079102
+    },
+    {
+      "word": "there",
+      "start_time": 41.7,
+      "end_time": 41.8,
+      "confidence": 0.9990779161453247
+    },
+    {
+      "word": "were",
+      "start_time": 41.8,
+      "end_time": 41.92,
+      "confidence": 0.9973134398460388
+    },
+    {
+      "word": "any",
+      "start_time": 41.92,
+      "end_time": 42.16,
+      "confidence": 0.9975571632385254
+    },
+    {
+      "word": "expensive",
+      "start_time": 42.16,
+      "end_time": 42.64,
+      "confidence": 0.9967785477638245
+    },
+    {
+      "word": "wines",
+      "start_time": 42.64,
+      "end_time": 42.98,
+      "confidence": 0.9500947594642639
+    },
+    {
+      "word": "left",
+      "start_time": 42.98,
+      "end_time": 43.32,
+      "confidence": 0.9991273283958435
+    },
+    {
+      "word": "on",
+      "start_time": 43.32,
+      "end_time": 43.58,
+      "confidence": 0.9957785606384277
+    },
+    {
+      "word": "sale.",
+      "start_time": 43.58,
+      "end_time": 43.88,
+      "confidence": 0.9904520511627197
+    },
+    {
+      "word": "He",
+      "start_time": 44.82,
+      "end_time": 45.12,
+      "confidence": 0.991797924041748
+    },
+    {
+      "word": "found",
+      "start_time": 45.12,
+      "end_time": 45.4,
+      "confidence": 0.998083233833313
+    },
+    {
+      "word": "one",
+      "start_time": 45.4,
+      "end_time": 45.68,
+      "confidence": 0.9143609404563904
+    },
+    {
+      "word": "worth",
+      "start_time": 45.68,
+      "end_time": 45.92,
+      "confidence": 0.9971911311149597
+    },
+    {
+      "word": "almost",
+      "start_time": 45.92,
+      "end_time": 46.3,
+      "confidence": 0.9914085268974304
+    },
+    {
+      "word": "$10",
+      "start_time": 46.3,
+      "end_time": 46.72,
+      "confidence": 0.9643106758594513
+    },
+    {
+      "word": ",000",
+      "start_time": 46.72,
+      "end_time": 47.38,
+      "confidence": 0.9950599670410156
+    },
+    {
+      "word": "and",
+      "start_time": 47.38,
+      "end_time": 47.62,
+      "confidence": 0.9766857028007507
+    },
+    {
+      "word": "set",
+      "start_time": 47.62,
+      "end_time": 47.8,
+      "confidence": 0.9830674529075623
+    },
+    {
+      "word": "the",
+      "start_time": 47.8,
+      "end_time": 47.98,
+      "confidence": 0.9987257122993469
+    },
+    {
+      "word": "quantity",
+      "start_time": 47.98,
+      "end_time": 48.34,
+      "confidence": 0.9946738481521606
+    },
+    {
+      "word": "to",
+      "start_time": 48.34,
+      "end_time": 48.6,
+      "confidence": 0.9978001713752747
+    },
+    {
+      "word": "$999,",
+      "start_time": 48.6,
+      "end_time": 49.58,
+      "confidence": 0.9074850281079611
+    },
+    {
+      "word": "the",
+      "start_time": 50.1,
+      "end_time": 50.22,
+      "confidence": 0.9476081132888794
+    },
+    {
+      "word": "maximum",
+      "start_time": 50.22,
+      "end_time": 50.6,
+      "confidence": 0.979324996471405
+    },
+    {
+      "word": "allowed.",
+      "start_time": 50.6,
+      "end_time": 50.98,
+      "confidence": 0.9525183439254761
+    },
+    {
+      "word": "Our",
+      "start_time": 51.94,
+      "end_time": 52.26,
+      "confidence": 0.9819498658180237
+    },
+    {
+      "word": "total",
+      "start_time": 52.26,
+      "end_time": 52.62,
+      "confidence": 0.9925675392150879
+    },
+    {
+      "word": "jumped",
+      "start_time": 52.62,
+      "end_time": 52.9,
+      "confidence": 0.7683818936347961
+    },
+    {
+      "word": "to",
+      "start_time": 52.9,
+      "end_time": 53.1,
+      "confidence": 0.9987654685974121
+    },
+    {
+      "word": "around",
+      "start_time": 53.1,
+      "end_time": 53.34,
+      "confidence": 0.9934033751487732
+    },
+    {
+      "word": "$9",
+      "start_time": 53.34,
+      "end_time": 53.82,
+      "confidence": 0.9947393834590912
+    },
+    {
+      "word": "million,",
+      "start_time": 53.82,
+      "end_time": 54.1,
+      "confidence": 0.8167222142219543
+    },
+    {
+      "word": "and",
+      "start_time": 54.82,
+      "end_time": 55.04,
+      "confidence": 0.996862530708313
+    },
+    {
+      "word": "we",
+      "start_time": 55.04,
+      "end_time": 55.18,
+      "confidence": 0.9960683584213257
+    },
+    {
+      "word": "were",
+      "start_time": 55.18,
+      "end_time": 55.32,
+      "confidence": 0.9985005855560303
+    },
+    {
+      "word": "still",
+      "start_time": 55.32,
+      "end_time": 55.56,
+      "confidence": 0.9983838796615601
+    },
+    {
+      "word": "in",
+      "start_time": 55.56,
+      "end_time": 55.74,
+      "confidence": 0.9964447617530823
+    },
+    {
+      "word": "stitches.",
+      "start_time": 55.74,
+      "end_time": 56.1,
+      "confidence": 0.950070321559906
+    },
+    {
+      "word": "Things",
+      "start_time": 57.019999999999996,
+      "end_time": 57.54,
+      "confidence": 0.12429674714803696
+    },
+    {
+      "word": "took",
+      "start_time": 57.54,
+      "end_time": 57.74,
+      "confidence": 0.9725328087806702
+    },
+    {
+      "word": "a",
+      "start_time": 57.74,
+      "end_time": 57.86,
+      "confidence": 0.993584930896759
+    },
+    {
+      "word": "turn",
+      "start_time": 57.86,
+      "end_time": 58.08,
+      "confidence": 0.99090975522995
+    },
+    {
+      "word": "for",
+      "start_time": 58.08,
+      "end_time": 58.3,
+      "confidence": 0.9967813491821289
+    },
+    {
+      "word": "the",
+      "start_time": 58.3,
+      "end_time": 58.4,
+      "confidence": 0.9957965612411499
+    },
+    {
+      "word": "worse",
+      "start_time": 58.4,
+      "end_time": 58.64,
+      "confidence": 0.7733286023139954
+    },
+    {
+      "word": "when",
+      "start_time": 58.64,
+      "end_time": 58.9,
+      "confidence": 0.9920603036880493
+    },
+    {
+      "word": "my",
+      "start_time": 58.9,
+      "end_time": 59.04,
+      "confidence": 0.992195725440979
+    },
+    {
+      "word": "coworker",
+      "start_time": 59.04,
+      "end_time": 59.54,
+      "confidence": 0.7957463562488556
+    },
+    {
+      "word": "spotted",
+      "start_time": 59.54,
+      "end_time": 59.88,
+      "confidence": 0.9691371321678162
+    },
+    {
+      "word": "another",
+      "start_time": 59.88,
+      "end_time": 60.22,
+      "confidence": 0.9961830973625183
+    },
+    {
+      "word": "bottle",
+      "start_time": 60.22,
+      "end_time": 60.62,
+      "confidence": 0.9271291494369507
+    },
+    {
+      "word": "worth",
+      "start_time": 60.62,
+      "end_time": 60.9,
+      "confidence": 0.9952282905578613
+    },
+    {
+      "word": "nearly",
+      "start_time": 60.9,
+      "end_time": 61.16,
+      "confidence": 0.9896257519721985
+    },
+    {
+      "word": "$20",
+      "start_time": 61.16,
+      "end_time": 61.62,
+      "confidence": 0.850368469953537
+    },
+    {
+      "word": ",000.",
+      "start_time": 61.62,
+      "end_time": 62.34,
+      "confidence": 0.9824486374855042
+    },
+    {
+      "word": "He",
+      "start_time": 63.120000000000005,
+      "end_time": 63.64,
+      "confidence": 0.9914137125015259
+    },
+    {
+      "word": "added",
+      "start_time": 63.64,
+      "end_time": 63.92,
+      "confidence": 0.9987456798553467
+    },
+    {
+      "word": "it",
+      "start_time": 63.92,
+      "end_time": 64.12,
+      "confidence": 0.9985450506210327
+    },
+    {
+      "word": "to",
+      "start_time": 64.12,
+      "end_time": 64.22,
+      "confidence": 0.997061550617218
+    },
+    {
+      "word": "the",
+      "start_time": 64.22,
+      "end_time": 64.32,
+      "confidence": 0.9955397248268127
+    },
+    {
+      "word": "system,",
+      "start_time": 64.32,
+      "end_time": 64.7,
+      "confidence": 0.9926862716674805
+    },
+    {
+      "word": "setting",
+      "start_time": 65.1,
+      "end_time": 65.4,
+      "confidence": 0.9662230014801025
+    },
+    {
+      "word": "the",
+      "start_time": 65.4,
+      "end_time": 65.56,
+      "confidence": 0.9982753992080688
+    },
+    {
+      "word": "quantity",
+      "start_time": 65.56,
+      "end_time": 65.88,
+      "confidence": 0.9919439554214478
+    },
+    {
+      "word": "to",
+      "start_time": 65.88,
+      "end_time": 66.16,
+      "confidence": 0.9976414442062378
+    },
+    {
+      "word": "$999",
+      "start_time": 66.16,
+      "end_time": 67.14,
+      "confidence": 0.8458462953567505
+    },
+    {
+      "word": "again,",
+      "start_time": 67.14,
+      "end_time": 67.6,
+      "confidence": 0.6692080497741699
+    },
+    {
+      "word": "which",
+      "start_time": 68.0,
+      "end_time": 68.16,
+      "confidence": 0.9973986148834229
+    },
+    {
+      "word": "brought",
+      "start_time": 68.16,
+      "end_time": 68.38,
+      "confidence": 0.9937151074409485
+    },
+    {
+      "word": "our",
+      "start_time": 68.38,
+      "end_time": 68.56,
+      "confidence": 0.9776535630226135
+    },
+    {
+      "word": "total",
+      "start_time": 68.56,
+      "end_time": 68.84,
+      "confidence": 0.9964646100997925
+    },
+    {
+      "word": "up",
+      "start_time": 68.84,
+      "end_time": 69.08,
+      "confidence": 0.9908843636512756
+    },
+    {
+      "word": "to",
+      "start_time": 69.08,
+      "end_time": 69.2,
+      "confidence": 0.9983096122741699
+    },
+    {
+      "word": "around",
+      "start_time": 69.2,
+      "end_time": 69.44,
+      "confidence": 0.9645499587059021
+    },
+    {
+      "word": "$28",
+      "start_time": 69.44,
+      "end_time": 70.06,
+      "confidence": 0.9943454563617706
+    },
+    {
+      "word": "million.",
+      "start_time": 70.06,
+      "end_time": 70.38,
+      "confidence": 0.8454346656799316
+    },
+    {
+      "word": "That's",
+      "start_time": 71.7,
+      "end_time": 72.22,
+      "confidence": 0.9656683206558228
+    },
+    {
+      "word": "when",
+      "start_time": 72.22,
+      "end_time": 72.32,
+      "confidence": 0.9923692941665649
+    },
+    {
+      "word": "I",
+      "start_time": 72.32,
+      "end_time": 72.42,
+      "confidence": 0.990050733089447
+    },
+    {
+      "word": "made",
+      "start_time": 72.42,
+      "end_time": 72.6,
+      "confidence": 0.997276246547699
+    },
+    {
+      "word": "a",
+      "start_time": 72.6,
+      "end_time": 72.68,
+      "confidence": 0.997815728187561
+    },
+    {
+      "word": "mistake,",
+      "start_time": 72.68,
+      "end_time": 73.02,
+      "confidence": 0.9995712637901306
+    },
+    {
+      "word": "I",
+      "start_time": 73.48,
+      "end_time": 73.6,
+      "confidence": 0.9934060573577881
+    },
+    {
+      "word": "let",
+      "start_time": 73.6,
+      "end_time": 73.72,
+      "confidence": 0.9156986474990845
+    },
+    {
+      "word": "out",
+      "start_time": 73.72,
+      "end_time": 73.88,
+      "confidence": 0.9970405697822571
+    },
+    {
+      "word": "a",
+      "start_time": 73.88,
+      "end_time": 74.0,
+      "confidence": 0.9981974959373474
+    },
+    {
+      "word": "bit",
+      "start_time": 74.0,
+      "end_time": 74.12,
+      "confidence": 0.9988411068916321
+    },
+    {
+      "word": "too",
+      "start_time": 74.12,
+      "end_time": 74.4,
+      "confidence": 0.9831364750862122
+    },
+    {
+      "word": "much",
+      "start_time": 74.4,
+      "end_time": 74.66,
+      "confidence": 0.9995253086090088
+    },
+    {
+      "word": "laughter",
+      "start_time": 74.66,
+      "end_time": 75.02,
+      "confidence": 0.990401566028595
+    },
+    {
+      "word": "and",
+      "start_time": 75.02,
+      "end_time": 75.2,
+      "confidence": 0.9938899278640747
+    },
+    {
+      "word": "pretended",
+      "start_time": 75.2,
+      "end_time": 75.48,
+      "confidence": 0.9642042517662048
+    },
+    {
+      "word": "to",
+      "start_time": 75.48,
+      "end_time": 75.74,
+      "confidence": 0.9995842576026917
+    },
+    {
+      "word": "bring",
+      "start_time": 75.74,
+      "end_time": 75.88,
+      "confidence": 0.9962217807769775
+    },
+    {
+      "word": "the",
+      "start_time": 75.88,
+      "end_time": 76.04,
+      "confidence": 0.994783341884613
+    },
+    {
+      "word": "transaction",
+      "start_time": 76.04,
+      "end_time": 76.44,
+      "confidence": 0.9896000623703003
+    },
+    {
+      "word": "to",
+      "start_time": 76.44,
+      "end_time": 76.8,
+      "confidence": 0.9989351630210876
+    },
+    {
+      "word": "the",
+      "start_time": 76.8,
+      "end_time": 76.9,
+      "confidence": 0.9971272349357605
+    },
+    {
+      "word": "point",
+      "start_time": 76.9,
+      "end_time": 77.12,
+      "confidence": 0.9992813467979431
+    },
+    {
+      "word": "where",
+      "start_time": 77.12,
+      "end_time": 77.34,
+      "confidence": 0.9951607584953308
+    },
+    {
+      "word": "we'd",
+      "start_time": 77.34,
+      "end_time": 77.54,
+      "confidence": 0.9052398800849915
+    },
+    {
+      "word": "confirmed",
+      "start_time": 77.54,
+      "end_time": 77.84,
+      "confidence": 0.5942105650901794
+    },
+    {
+      "word": "the",
+      "start_time": 77.84,
+      "end_time": 78.08,
+      "confidence": 0.9969784021377563
+    },
+    {
+      "word": "cash",
+      "start_time": 78.08,
+      "end_time": 78.32,
+      "confidence": 0.9868500232696533
+    },
+    {
+      "word": "price.",
+      "start_time": 78.32,
+      "end_time": 78.64,
+      "confidence": 0.9911096096038818
+    },
+    {
+      "word": "But",
+      "start_time": 79.52,
+      "end_time": 79.88,
+      "confidence": 0.9932041168212891
+    },
+    {
+      "word": "in",
+      "start_time": 79.88,
+      "end_time": 80.02,
+      "confidence": 0.993914783000946
+    },
+    {
+      "word": "that",
+      "start_time": 80.02,
+      "end_time": 80.2,
+      "confidence": 0.9992399215698242
+    },
+    {
+      "word": "moment",
+      "start_time": 80.2,
+      "end_time": 80.52,
+      "confidence": 0.9990179538726807
+    },
+    {
+      "word": "of",
+      "start_time": 80.52,
+      "end_time": 80.72,
+      "confidence": 0.9993871450424194
+    },
+    {
+      "word": "distraction,",
+      "start_time": 80.72,
+      "end_time": 81.26,
+      "confidence": 0.9806650876998901
+    },
+    {
+      "word": "my",
+      "start_time": 81.66,
+      "end_time": 81.76,
+      "confidence": 0.988987147808075
+    },
+    {
+      "word": "coworker",
+      "start_time": 81.76,
+      "end_time": 82.3,
+      "confidence": 0.9988133907318115
+    },
+    {
+      "word": "didn't",
+      "start_time": 82.3,
+      "end_time": 82.58,
+      "confidence": 0.9976355731487274
+    },
+    {
+      "word": "see",
+      "start_time": 82.58,
+      "end_time": 82.78,
+      "confidence": 0.9947768449783325
+    },
+    {
+      "word": "me",
+      "start_time": 82.78,
+      "end_time": 82.96,
+      "confidence": 0.9976663589477539
+    },
+    {
+      "word": "there,",
+      "start_time": 82.96,
+      "end_time": 83.22,
+      "confidence": 0.9983479976654053
+    },
+    {
+      "word": "and",
+      "start_time": 83.56,
+      "end_time": 83.66,
+      "confidence": 0.99834144115448
+    },
+    {
+      "word": "he",
+      "start_time": 83.66,
+      "end_time": 83.8,
+      "confidence": 0.9981630444526672
+    },
+    {
+      "word": "accidentally",
+      "start_time": 83.8,
+      "end_time": 84.26,
+      "confidence": 0.9757485389709473
+    },
+    {
+      "word": "pressed",
+      "start_time": 84.26,
+      "end_time": 84.68,
+      "confidence": 0.9907017946243286
+    },
+    {
+      "word": "enter,",
+      "start_time": 84.68,
+      "end_time": 85.08,
+      "confidence": 0.2942916750907898
+    },
+    {
+      "word": "completing",
+      "start_time": 85.42,
+      "end_time": 85.8,
+      "confidence": 0.9812374711036682
+    },
+    {
+      "word": "the",
+      "start_time": 85.8,
+      "end_time": 86.0,
+      "confidence": 0.9963372945785522
+    },
+    {
+      "word": "transaction.",
+      "start_time": 86.0,
+      "end_time": 86.56,
+      "confidence": 0.9903987646102905
+    },
+    {
+      "word": "Suddenly,",
+      "start_time": 87.64,
+      "end_time": 88.16,
+      "confidence": 0.9493416547775269
+    },
+    {
+      "word": "$28",
+      "start_time": 88.42,
+      "end_time": 88.9,
+      "confidence": 0.7637008130550385
+    },
+    {
+      "word": "million",
+      "start_time": 88.9,
+      "end_time": 89.2,
+      "confidence": 0.827480137348175
+    },
+    {
+      "word": "was",
+      "start_time": 89.2,
+      "end_time": 89.8,
+      "confidence": 0.9841492772102356
+    },
+    {
+      "word": "sitting",
+      "start_time": 89.8,
+      "end_time": 90.08,
+      "confidence": 0.9954121708869934
+    },
+    {
+      "word": "in",
+      "start_time": 90.08,
+      "end_time": 90.24,
+      "confidence": 0.9950195550918579
+    },
+    {
+      "word": "our",
+      "start_time": 90.24,
+      "end_time": 90.4,
+      "confidence": 0.9908439517021179
+    },
+    {
+      "word": "cash",
+      "start_time": 90.4,
+      "end_time": 90.66,
+      "confidence": 0.894816517829895
+    },
+    {
+      "word": "register's",
+      "start_time": 90.66,
+      "end_time": 91.34,
+      "confidence": 0.7785170078277588
+    },
+    {
+      "word": "balance.",
+      "start_time": 91.34,
+      "end_time": 91.62,
+      "confidence": 0.9931986927986145
+    },
+    {
+      "word": "I",
+      "start_time": 92.58,
+      "end_time": 92.96,
+      "confidence": 0.9649735689163208
+    },
+    {
+      "word": "immediately",
+      "start_time": 92.96,
+      "end_time": 93.34,
+      "confidence": 0.9952871799468994
+    },
+    {
+      "word": "yelled",
+      "start_time": 93.34,
+      "end_time": 93.76,
+      "confidence": 0.9950219392776489
+    },
+    {
+      "word": "at",
+      "start_time": 93.76,
+      "end_time": 93.94,
+      "confidence": 0.9992009997367859
+    },
+    {
+      "word": "him",
+      "start_time": 93.94,
+      "end_time": 94.06,
+      "confidence": 0.9967645406723022
+    },
+    {
+      "word": "to",
+      "start_time": 94.06,
+      "end_time": 94.2,
+      "confidence": 0.9988903403282166
+    },
+    {
+      "word": "figure",
+      "start_time": 94.2,
+      "end_time": 94.46,
+      "confidence": 0.9953082203865051
+    },
+    {
+      "word": "out",
+      "start_time": 94.46,
+      "end_time": 94.68,
+      "confidence": 0.9966574907302856
+    },
+    {
+      "word": "what",
+      "start_time": 94.68,
+      "end_time": 94.88,
+      "confidence": 0.9981081485748291
+    },
+    {
+      "word": "had",
+      "start_time": 94.88,
+      "end_time": 95.0,
+      "confidence": 0.9876420497894287
+    },
+    {
+      "word": "happened,",
+      "start_time": 95.0,
+      "end_time": 95.32,
+      "confidence": 0.9973093271255493
+    },
+    {
+      "word": "and",
+      "start_time": 95.76,
+      "end_time": 95.86,
+      "confidence": 0.9977287650108337
+    },
+    {
+      "word": "his",
+      "start_time": 95.86,
+      "end_time": 96.02,
+      "confidence": 0.9982751607894897
+    },
+    {
+      "word": "eyes",
+      "start_time": 96.02,
+      "end_time": 96.28,
+      "confidence": 0.996916651725769
+    },
+    {
+      "word": "went",
+      "start_time": 96.28,
+      "end_time": 96.52,
+      "confidence": 0.9972990155220032
+    },
+    {
+      "word": "wide",
+      "start_time": 96.52,
+      "end_time": 96.82,
+      "confidence": 0.9709603190422058
+    },
+    {
+      "word": "with",
+      "start_time": 96.82,
+      "end_time": 97.04,
+      "confidence": 0.9975770115852356
+    },
+    {
+      "word": "realization.",
+      "start_time": 97.04,
+      "end_time": 97.58,
+      "confidence": 0.9679639339447021
+    },
+    {
+      "word": "We",
+      "start_time": 98.7,
+      "end_time": 98.98,
+      "confidence": 0.87962406873703
+    },
+    {
+      "word": "knew",
+      "start_time": 98.98,
+      "end_time": 99.18,
+      "confidence": 0.9975220561027527
+    },
+    {
+      "word": "we",
+      "start_time": 99.18,
+      "end_time": 99.34,
+      "confidence": 0.9974247217178345
+    },
+    {
+      "word": "had",
+      "start_time": 99.34,
+      "end_time": 99.5,
+      "confidence": 0.9955486059188843
+    },
+    {
+      "word": "to",
+      "start_time": 99.5,
+      "end_time": 99.66,
+      "confidence": 0.9979680180549622
+    },
+    {
+      "word": "reverse",
+      "start_time": 99.66,
+      "end_time": 99.88,
+      "confidence": 0.9871953725814819
+    },
+    {
+      "word": "the",
+      "start_time": 99.88,
+      "end_time": 100.18,
+      "confidence": 0.9968648552894592
+    },
+    {
+      "word": "entire",
+      "start_time": 100.18,
+      "end_time": 100.56,
+      "confidence": 0.9943429231643677
+    },
+    {
+      "word": "thing,",
+      "start_time": 100.56,
+      "end_time": 100.9,
+      "confidence": 0.9978613257408142
+    },
+    {
+      "word": "but",
+      "start_time": 101.28,
+      "end_time": 101.4,
+      "confidence": 0.9978823065757751
+    },
+    {
+      "word": "our",
+      "start_time": 101.4,
+      "end_time": 101.52,
+      "confidence": 0.9987943172454834
+    },
+    {
+      "word": "system",
+      "start_time": 101.52,
+      "end_time": 101.88,
+      "confidence": 0.9975869655609131
+    },
+    {
+      "word": "only",
+      "start_time": 101.88,
+      "end_time": 102.22,
+      "confidence": 0.9965636134147644
+    },
+    {
+      "word": "allows",
+      "start_time": 102.22,
+      "end_time": 102.5,
+      "confidence": 0.9965093731880188
+    },
+    {
+      "word": "a",
+      "start_time": 102.5,
+      "end_time": 102.74,
+      "confidence": 0.9920631051063538
+    },
+    {
+      "word": "maximum",
+      "start_time": 102.74,
+      "end_time": 103.08,
+      "confidence": 0.9922558069229126
+    },
+    {
+      "word": "of",
+      "start_time": 103.08,
+      "end_time": 103.4,
+      "confidence": 0.9978214502334595
+    },
+    {
+      "word": "$1",
+      "start_time": 103.4,
+      "end_time": 103.62,
+      "confidence": 0.9328780770301819
+    },
+    {
+      "word": "million",
+      "start_time": 103.62,
+      "end_time": 103.88,
+      "confidence": 0.9680963158607483
+    },
+    {
+      "word": "returns",
+      "start_time": 103.88,
+      "end_time": 104.54,
+      "confidence": 0.9785086512565613
+    },
+    {
+      "word": "at",
+      "start_time": 104.54,
+      "end_time": 104.78,
+      "confidence": 0.9972273707389832
+    },
+    {
+      "word": "a",
+      "start_time": 104.78,
+      "end_time": 104.9,
+      "confidence": 0.9981454610824585
+    },
+    {
+      "word": "time,",
+      "start_time": 104.9,
+      "end_time": 105.18,
+      "confidence": 0.9993933439254761
+    },
+    {
+      "word": "so",
+      "start_time": 105.56,
+      "end_time": 105.72,
+      "confidence": 0.9983207583427429
+    },
+    {
+      "word": "it",
+      "start_time": 105.72,
+      "end_time": 105.86,
+      "confidence": 0.9980366826057434
+    },
+    {
+      "word": "took",
+      "start_time": 105.86,
+      "end_time": 106.0,
+      "confidence": 0.9981258511543274
+    },
+    {
+      "word": "us",
+      "start_time": 106.0,
+      "end_time": 106.2,
+      "confidence": 0.9986093044281006
+    },
+    {
+      "word": "dozens",
+      "start_time": 106.2,
+      "end_time": 106.48,
+      "confidence": 0.9914001226425171
+    },
+    {
+      "word": "of",
+      "start_time": 106.48,
+      "end_time": 106.68,
+      "confidence": 0.9975963234901428
+    },
+    {
+      "word": "attempts",
+      "start_time": 106.68,
+      "end_time": 107.0,
+      "confidence": 0.9953600764274597
+    },
+    {
+      "word": "to",
+      "start_time": 107.0,
+      "end_time": 107.2,
+      "confidence": 0.9993625283241272
+    },
+    {
+      "word": "get",
+      "start_time": 107.2,
+      "end_time": 107.3,
+      "confidence": 0.9989180564880371
+    },
+    {
+      "word": "every",
+      "start_time": 107.3,
+      "end_time": 107.56,
+      "confidence": 0.980541467666626
+    },
+    {
+      "word": "bottle",
+      "start_time": 107.56,
+      "end_time": 107.78,
+      "confidence": 0.9858049750328064
+    },
+    {
+      "word": "back",
+      "start_time": 107.78,
+      "end_time": 108.02,
+      "confidence": 0.983366072177887
+    },
+    {
+      "word": "onto",
+      "start_time": 108.02,
+      "end_time": 108.3,
+      "confidence": 0.9299681782722473
+    },
+    {
+      "word": "the",
+      "start_time": 108.3,
+      "end_time": 108.52,
+      "confidence": 0.9888322353363037
+    },
+    {
+      "word": "shelves.",
+      "start_time": 108.52,
+      "end_time": 108.8,
+      "confidence": 0.9977744221687317
+    },
+    {
+      "word": "Now,",
+      "start_time": 109.66000000000001,
+      "end_time": 110.18,
+      "confidence": 0.42881619930267334
+    },
+    {
+      "word": "as",
+      "start_time": 110.52,
+      "end_time": 110.7,
+      "confidence": 0.9945265650749207
+    },
+    {
+      "word": "I",
+      "start_time": 110.7,
+      "end_time": 110.8,
+      "confidence": 0.9890208840370178
+    },
+    {
+      "word": "wait",
+      "start_time": 110.8,
+      "end_time": 111.0,
+      "confidence": 0.9980844259262085
+    },
+    {
+      "word": "for",
+      "start_time": 111.0,
+      "end_time": 111.18,
+      "confidence": 0.998980700969696
+    },
+    {
+      "word": "my",
+      "start_time": 111.18,
+      "end_time": 111.32,
+      "confidence": 0.9982886910438538
+    },
+    {
+      "word": "store",
+      "start_time": 111.32,
+      "end_time": 111.58,
+      "confidence": 0.9649738073348999
+    },
+    {
+      "word": "manager",
+      "start_time": 111.58,
+      "end_time": 111.96,
+      "confidence": 0.9839747548103333
+    },
+    {
+      "word": "to",
+      "start_time": 111.96,
+      "end_time": 112.2,
+      "confidence": 0.9992009997367859
+    },
+    {
+      "word": "come",
+      "start_time": 112.2,
+      "end_time": 112.4,
+      "confidence": 0.9993269443511963
+    },
+    {
+      "word": "in",
+      "start_time": 112.4,
+      "end_time": 112.52,
+      "confidence": 0.9301536083221436
+    },
+    {
+      "word": "tomorrow,",
+      "start_time": 112.52,
+      "end_time": 112.92,
+      "confidence": 0.9943832159042358
+    },
+    {
+      "word": "I'm",
+      "start_time": 113.34,
+      "end_time": 113.5,
+      "confidence": 0.9810988008975983
+    },
+    {
+      "word": "bracing",
+      "start_time": 113.5,
+      "end_time": 113.8,
+      "confidence": 0.9486558139324188
+    },
+    {
+      "word": "myself",
+      "start_time": 113.8,
+      "end_time": 114.24,
+      "confidence": 0.991047203540802
+    },
+    {
+      "word": "for",
+      "start_time": 114.24,
+      "end_time": 114.5,
+      "confidence": 0.9982895255088806
+    },
+    {
+      "word": "an",
+      "start_time": 114.5,
+      "end_time": 114.6,
+      "confidence": 0.9983635544776917
+    },
+    {
+      "word": "explanation.",
+      "start_time": 114.6,
+      "end_time": 115.16,
+      "confidence": 0.9946051239967346
+    },
+    {
+      "word": "We",
+      "start_time": 116.08,
+      "end_time": 116.42,
+      "confidence": 0.9693720936775208
+    },
+    {
+      "word": "know",
+      "start_time": 116.42,
+      "end_time": 116.62,
+      "confidence": 0.9981257319450378
+    },
+    {
+      "word": "we",
+      "start_time": 116.62,
+      "end_time": 116.8,
+      "confidence": 0.9969770908355713
+    },
+    {
+      "word": "messed",
+      "start_time": 116.8,
+      "end_time": 117.0,
+      "confidence": 0.9898191094398499
+    },
+    {
+      "word": "up,",
+      "start_time": 117.0,
+      "end_time": 117.28,
+      "confidence": 0.9968897700309753
+    },
+    {
+      "word": "and",
+      "start_time": 117.6,
+      "end_time": 117.72,
+      "confidence": 0.9970603585243225
+    },
+    {
+      "word": "our",
+      "start_time": 117.72,
+      "end_time": 117.84,
+      "confidence": 0.995555579662323
+    },
+    {
+      "word": "joke",
+      "start_time": 117.84,
+      "end_time": 118.12,
+      "confidence": 0.9456751942634583
+    },
+    {
+      "word": "has",
+      "start_time": 118.12,
+      "end_time": 118.38,
+      "confidence": 0.9965147376060486
+    },
+    {
+      "word": "put",
+      "start_time": 118.38,
+      "end_time": 118.54,
+      "confidence": 0.9990977048873901
+    },
+    {
+      "word": "our",
+      "start_time": 118.54,
+      "end_time": 118.7,
+      "confidence": 0.9967005848884583
+    },
+    {
+      "word": "store's",
+      "start_time": 118.7,
+      "end_time": 119.16,
+      "confidence": 0.7040431499481201
+    },
+    {
+      "word": "stats",
+      "start_time": 119.16,
+      "end_time": 119.32,
+      "confidence": 0.9741355180740356
+    },
+    {
+      "word": "and",
+      "start_time": 119.32,
+      "end_time": 119.6,
+      "confidence": 0.9934651255607605
+    },
+    {
+      "word": "graphs",
+      "start_time": 119.6,
+      "end_time": 119.84,
+      "confidence": 0.9829924702644348
+    },
+    {
+      "word": "in",
+      "start_time": 119.84,
+      "end_time": 120.14,
+      "confidence": 0.9974959492683411
+    },
+    {
+      "word": "jeopardy.",
+      "start_time": 120.14,
+      "end_time": 120.62,
+      "confidence": 0.9895119369029999
+    },
+    {
+      "word": "Please",
+      "start_time": 121.46,
+      "end_time": 121.78,
+      "confidence": 0.9735855460166931
+    },
+    {
+      "word": "keep",
+      "start_time": 121.78,
+      "end_time": 122.04,
+      "confidence": 0.9926742911338806
+    },
+    {
+      "word": "your",
+      "start_time": 122.04,
+      "end_time": 122.24,
+      "confidence": 0.9986017346382141
+    },
+    {
+      "word": "fingers",
+      "start_time": 122.24,
+      "end_time": 122.52,
+      "confidence": 0.9929952025413513
+    },
+    {
+      "word": "crossed",
+      "start_time": 122.52,
+      "end_time": 122.9,
+      "confidence": 0.9996473789215088
+    },
+    {
+      "word": "for",
+      "start_time": 122.9,
+      "end_time": 123.16,
+      "confidence": 0.9979897737503052
+    },
+    {
+      "word": "me,",
+      "start_time": 123.16,
+      "end_time": 123.32,
+      "confidence": 0.9994254112243652
+    },
+    {
+      "word": "I've",
+      "start_time": 123.72,
+      "end_time": 123.92,
+      "confidence": 0.9898836314678192
+    },
+    {
+      "word": "accepted",
+      "start_time": 123.92,
+      "end_time": 124.3,
+      "confidence": 0.9783666729927063
+    },
+    {
+      "word": "that",
+      "start_time": 124.3,
+      "end_time": 124.5,
+      "confidence": 0.9986172914505005
+    },
+    {
+      "word": "we",
+      "start_time": 124.5,
+      "end_time": 124.62,
+      "confidence": 0.9987002611160278
+    },
+    {
+      "word": "deserve",
+      "start_time": 124.62,
+      "end_time": 124.94,
+      "confidence": 0.9892662763595581
+    },
+    {
+      "word": "some",
+      "start_time": 124.94,
+      "end_time": 125.18,
+      "confidence": 0.9993307590484619
+    },
+    {
+      "word": "kind",
+      "start_time": 125.18,
+      "end_time": 125.44,
+      "confidence": 0.9943707585334778
+    },
+    {
+      "word": "of",
+      "start_time": 125.44,
+      "end_time": 125.6,
+      "confidence": 0.9993844032287598
+    },
+    {
+      "word": "punishment",
+      "start_time": 125.6,
+      "end_time": 125.9,
+      "confidence": 0.9948175549507141
+    },
+    {
+      "word": "for",
+      "start_time": 125.9,
+      "end_time": 126.2,
+      "confidence": 0.9989645481109619
+    },
+    {
+      "word": "our",
+      "start_time": 126.2,
+      "end_time": 126.34,
+      "confidence": 0.9970732927322388
+    },
+    {
+      "word": "actions.",
+      "start_time": 126.34,
+      "end_time": 126.68,
+      "confidence": 0.9974969029426575
+    },
+    {
+      "word": "My",
+      "start_time": 127.86,
+      "end_time": 128.08,
+      "confidence": 0.9836627244949341
+    },
+    {
+      "word": "boss",
+      "start_time": 128.08,
+      "end_time": 128.36,
+      "confidence": 0.9877353310585022
+    },
+    {
+      "word": "was",
+      "start_time": 128.36,
+      "end_time": 128.58,
+      "confidence": 0.9991685152053833
+    },
+    {
+      "word": "understandably",
+      "start_time": 128.58,
+      "end_time": 129.34,
+      "confidence": 0.9901300072669983
+    },
+    {
+      "word": "frustrated",
+      "start_time": 129.34,
+      "end_time": 129.84,
+      "confidence": 0.9985364675521851
+    },
+    {
+      "word": "and",
+      "start_time": 129.84,
+      "end_time": 130.12,
+      "confidence": 0.9989458918571472
+    },
+    {
+      "word": "disappointed,",
+      "start_time": 130.12,
+      "end_time": 130.62,
+      "confidence": 0.9951549768447876
+    },
+    {
+      "word": "but",
+      "start_time": 131.0,
+      "end_time": 131.16,
+      "confidence": 0.9961062073707581
+    },
+    {
+      "word": "thankfully,",
+      "start_time": 131.16,
+      "end_time": 131.62,
+      "confidence": 0.9950411915779114
+    },
+    {
+      "word": "it",
+      "start_time": 132.06,
+      "end_time": 132.18,
+      "confidence": 0.991329550743103
+    },
+    {
+      "word": "looks",
+      "start_time": 132.18,
+      "end_time": 132.32,
+      "confidence": 0.9963304400444031
+    },
+    {
+      "word": "like",
+      "start_time": 132.32,
+      "end_time": 132.56,
+      "confidence": 0.9993851184844971
+    },
+    {
+      "word": "the",
+      "start_time": 132.56,
+      "end_time": 132.72,
+      "confidence": 0.9974138736724854
+    },
+    {
+      "word": "worst",
+      "start_time": 132.72,
+      "end_time": 132.94,
+      "confidence": 0.9989128112792969
+    },
+    {
+      "word": "case",
+      "start_time": 132.94,
+      "end_time": 133.2,
+      "confidence": 0.6469595432281494
+    },
+    {
+      "word": "scenario",
+      "start_time": 133.2,
+      "end_time": 133.66,
+      "confidence": 0.9986252784729004
+    },
+    {
+      "word": "is",
+      "start_time": 133.66,
+      "end_time": 133.98,
+      "confidence": 0.9990274906158447
+    },
+    {
+      "word": "just",
+      "start_time": 133.98,
+      "end_time": 134.16,
+      "confidence": 0.9963494539260864
+    },
+    {
+      "word": "warnings",
+      "start_time": 134.16,
+      "end_time": 134.56,
+      "confidence": 0.9962590932846069
+    },
+    {
+      "word": "or",
+      "start_time": 134.56,
+      "end_time": 134.84,
+      "confidence": 0.9973809123039246
+    },
+    {
+      "word": "a",
+      "start_time": 134.84,
+      "end_time": 134.94,
+      "confidence": 0.9468149542808533
+    },
+    {
+      "word": "notation",
+      "start_time": 134.94,
+      "end_time": 135.38,
+      "confidence": 0.9698986411094666
+    },
+    {
+      "word": "in",
+      "start_time": 135.38,
+      "end_time": 135.6,
+      "confidence": 0.9991075396537781
+    },
+    {
+      "word": "our",
+      "start_time": 135.6,
+      "end_time": 135.74,
+      "confidence": 0.998050332069397
+    },
+    {
+      "word": "files.",
+      "start_time": 135.74,
+      "end_time": 136.14,
+      "confidence": 0.9948339462280273
+    }
+  ],
+  "duration": 136.14,
+  "language": "en"
+}
