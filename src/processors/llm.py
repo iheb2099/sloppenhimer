@@ -25,7 +25,8 @@ class LLMProcessor:
         if self._prompt_template is None:
             prompt_path = self.settings.prompts_dir / "simplify_story.txt"
             if prompt_path.exists():
-                self._prompt_template = prompt_path.read_text()
+                # Fix: Add encoding='utf-8' to handle special characters
+                self._prompt_template = prompt_path.read_text(encoding='utf-8')
             else:
                 # Fallback template
                 self._prompt_template = """Rewrite this story to be clearer and easier to read aloud.

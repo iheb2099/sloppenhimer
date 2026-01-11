@@ -8,6 +8,7 @@ from pathlib import Path
 
 import edge_tts
 from loguru import logger
+from pydub import AudioSegment
 
 from config.settings import get_settings
 
@@ -74,6 +75,68 @@ class TTSEngine:
         return asyncio.run(
             self.generate_audio_async(text, output_path, voice, rate)
         )
+
+    def generate_title_and_body_audio(
+        self,
+        title: str,
+        body: str,
+        output_path: Path,
+        voice: str | None = None,
+        rate: str | None = None,
+        pause_duration: float = 1.0,
+    ) -> tuple[Path, float]:
+        """
+        Generate combined audio with title first, then body.
+        
+        Args:
+            title: Story title text
+            body: Story body text
+            output_path: Path to save combined audio
+            voice: Voice to use
+            rate: Speech rate
+            pause_duration: Silence duration between title and body (seconds)
+            
+        Returns:
+            Tuple of (audio_path, title_duration_seconds)
+        """
+        output_path = Path(output_path)
+        cache_dir = output_path.parent / "temp"
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Generate title audio
+        title_path = cache_dir / f"{output_path.stem}_title.mp3"
+        self.generate_audio(title, title_path, voice, rate)
+        
+        # Generate body audio
+        body_path = cache_dir / f"{output_path.stem}_body.mp3"
+        self.generate_audio(body, body_path, voice, rate)
+        
+        # Load audio segments
+        title_audio = AudioSegment.from_mp3(str(title_path))
+        body_audio = AudioSegment.from_mp3(str(body_path))
+        
+        # Get title duration
+        title_duration = len(title_audio) / 1000.0  # Convert ms to seconds
+        
+        # Create pause
+        pause = AudioSegment.silent(duration=int(pause_duration * 1000))
+        
+        # Combine: title + pause + body
+        combined = title_audio + pause + body_audio
+        
+        # Export combined audio
+        combined.export(str(output_path), format="mp3")
+        
+        # Cleanup temp files
+        title_path.unlink()
+        body_path.unlink()
+        
+        logger.info(
+            f"Generated combined audio: title={title_duration:.2f}s, "
+            f"pause={pause_duration}s, total={len(combined)/1000:.2f}s"
+        )
+        
+        return output_path, title_duration
 
     async def generate_with_timestamps_async(
         self,

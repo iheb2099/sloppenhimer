@@ -3,7 +3,6 @@ Final video assembler.
 Combines gameplay video, TTS audio, and captions into final output.
 """
 
-import json
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
@@ -32,6 +31,8 @@ class VideoAssembler:
         audio_path: Path,
         transcript: Transcript,
         output_path: Path | None = None,
+        title_duration: float = 0.0,
+        show_thumbnail: bool = True,
     ) -> Path:
         """
         Assemble final video from all components.
@@ -42,6 +43,8 @@ class VideoAssembler:
             audio_path: Path to TTS audio
             transcript: Transcript with word timings
             output_path: Output video path (defaults to output_dir/story_id.mp4)
+            title_duration: Duration of title audio in seconds
+            show_thumbnail: Whether to show thumbnail overlay at start
 
         Returns:
             Path to final video
@@ -65,7 +68,7 @@ class VideoAssembler:
         with AudioFileClip(str(audio_path)) as audio:
             target_duration = audio.duration
 
-        logger.info(f"Target duration: {target_duration:.1f}s")
+        logger.info(f"Target duration: {target_duration:.1f}s, Title duration: {title_duration:.1f}s")
 
         # Prepare background video (trim/loop, scale to vertical)
         cache_dir = self.settings.cache_dir
@@ -87,10 +90,33 @@ class VideoAssembler:
 
                 # Generate caption clips
                 video_size = (video.w, video.h)
-                caption_clips = self.captions.generate_captions(transcript, video_size)
+                caption_clips = self.captions.generate_captions(
+                    transcript, 
+                    video_size
+                )
+                
+                # Filter out captions during title if thumbnail is shown
+                if show_thumbnail and title_duration > 0:
+                    caption_clips = [
+                        clip for clip in caption_clips 
+                        if clip.start >= title_duration
+                    ]
+
+                # Create composite list
+                composite_clips = [video_with_audio] + caption_clips
+
+                # Add thumbnail overlay if enabled
+                if show_thumbnail and title_duration > 0:
+                    thumbnail_clips = self.editor.create_thumbnail_overlay(
+                        title=story.original.title,
+                        duration=title_duration,
+                        video_size=video_size,
+                        username="RedditPapi"
+                    )
+                    composite_clips.extend(thumbnail_clips)
 
                 # Composite everything
-                final = CompositeVideoClip([video_with_audio] + caption_clips)
+                final = CompositeVideoClip(composite_clips)
 
                 # Write final video
                 logger.info(f"Writing final video to {output_path}")
@@ -117,6 +143,8 @@ class VideoAssembler:
         audio_path: Path,
         transcript: Transcript,
         output_path: Path | None = None,
+        title_duration: float = 0.0,
+        show_thumbnail: bool = True,
     ) -> Path:
         """
         Quick assembly without fancy captions (faster render).
@@ -163,6 +191,10 @@ class VideoAssembler:
                 caption_clips = []
 
                 for segment in segments:
+                    # Skip captions during thumbnail display
+                    if show_thumbnail and segment.start_time < title_duration:
+                        continue
+                        
                     text = segment.text
                     clip = TextClip(
                         text=text,
@@ -183,7 +215,20 @@ class VideoAssembler:
                     )
                     caption_clips.append(clip)
 
-                final = CompositeVideoClip([video_with_audio] + caption_clips)
+                # Create composite list
+                composite_clips = [video_with_audio] + caption_clips
+
+                # Add thumbnail overlay
+                if show_thumbnail and title_duration > 0:
+                    thumbnail_clips = self.editor.create_thumbnail_overlay(
+                        title=story.original.title,
+                        duration=title_duration,
+                        video_size=video_size,
+                        username="RedditPapi"
+                    )
+                    composite_clips.extend(thumbnail_clips)
+
+                final = CompositeVideoClip(composite_clips)
 
                 final.write_videofile(
                     str(output_path),
@@ -247,6 +292,7 @@ class Pipeline:
         self,
         story_id: str,
         quick_mode: bool = False,
+        show_thumbnail: bool = True,
     ) -> Optional[Path]:
         """
         Process a single story through the full pipeline.
@@ -254,6 +300,7 @@ class Pipeline:
         Args:
             story_id: ID of the story to process
             quick_mode: Use faster rendering without word-by-word captions
+            show_thumbnail: Show title thumbnail at beginning
 
         Returns:
             Path to output video or None if failed
@@ -274,10 +321,22 @@ class Pipeline:
             logger.info("Step 1/5: Simplifying story with LLM")
             processed = self.llm.simplify_story(story)
 
-            # 2. Generate TTS audio
-            logger.info("Step 2/5: Generating TTS audio")
+            # 2. Generate TTS audio (title + body)
+            logger.info("Step 2/5: Generating TTS audio with title")
             audio_path = self.settings.audio_dir / f"{story_id}.mp3"
-            self.tts.generate_audio(processed.simplified_text, audio_path)
+            
+            if show_thumbnail:
+                # Generate combined audio with title first
+                audio_path, title_duration = self.tts.generate_title_and_body_audio(
+                    title=story.title,
+                    body=processed.simplified_text,
+                    output_path=audio_path,
+                    pause_duration=1.0  # 1 second pause between title and body
+                )
+            else:
+                # Just body audio
+                self.tts.generate_audio(processed.simplified_text, audio_path)
+                title_duration = 0.0
 
             # 3. Transcribe for word timing
             logger.info("Step 3/5: Transcribing audio for timestamps")
@@ -295,14 +354,24 @@ class Pipeline:
                 background = videos[0]
 
             # 5. Assemble final video
-            logger.info("Step 5/5: Assembling final video")
+            logger.info("Step 5/5: Assembling final video with thumbnail")
             if quick_mode:
                 output = self.assembler.quick_assemble(
-                    processed, background, audio_path, transcript
+                    processed, 
+                    background, 
+                    audio_path, 
+                    transcript,
+                    title_duration=title_duration,
+                    show_thumbnail=show_thumbnail
                 )
             else:
                 output = self.assembler.assemble(
-                    processed, background, audio_path, transcript
+                    processed, 
+                    background, 
+                    audio_path, 
+                    transcript,
+                    title_duration=title_duration,
+                    show_thumbnail=show_thumbnail
                 )
 
             # Update story status

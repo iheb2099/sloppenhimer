@@ -6,9 +6,11 @@ Creates word-by-word highlighted captions for video.
 from pathlib import Path
 from typing import Callable
 import textwrap
+import numpy as np
+from PIL import Image, ImageDraw, ImageFont
 
 from loguru import logger
-from moviepy import TextClip, CompositeVideoClip, VideoFileClip
+from moviepy import TextClip, CompositeVideoClip, VideoFileClip, ImageClip
 
 from config.settings import get_settings
 from src.models import Transcript, WordTiming, CaptionSegment
@@ -20,156 +22,142 @@ class KaraokeCaptions:
     def __init__(self):
         self.settings = get_settings()
 
-    def create_word_clip(
+    def _hex_to_rgb(self, hex_color: str) -> tuple:
+        """Convert hex color to RGB tuple."""
+        hex_color = hex_color.lstrip('#')
+        return tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
+
+    def _create_text_image_with_highlight(
         self,
-        word: str,
-        start_time: float,
-        end_time: float,
-        is_highlighted: bool = False,
-        position: tuple[str, str] = ("center", "center"),
-    ) -> TextClip:
+        words: list[WordTiming],
+        highlight_index: int,
+        width: int,
+        font_size: int,
+        max_chars: int
+    ) -> np.ndarray:
         """
-        Create a text clip for a single word.
-
+        Create a PIL image with text where one word is highlighted.
+        
         Args:
-            word: The word text
-            start_time: Start time in seconds
-            end_time: End time in seconds
-            is_highlighted: Whether this word is currently being spoken
-            position: Position tuple (x, y)
-
+            words: List of word timings
+            highlight_index: Index of word to highlight
+            width: Image width
+            font_size: Font size
+            max_chars: Max characters per line for wrapping
+            
         Returns:
-            TextClip for the word
+            numpy array of RGBA image
         """
-        color = (
-            self.settings.caption.highlight_color
-            if is_highlighted
-            else self.settings.caption.color
-        )
+        # Build and wrap text
+        full_text = " ".join(w.word for w in words)
+        wrapped_text = self._wrap_text_properly(full_text, max_chars)
+        lines = wrapped_text.split('\n')
+        
+        # Load font
+        try:
+            font = ImageFont.truetype(self.settings.caption.font, font_size)
+        except:
+            font = ImageFont.load_default()
+        
+        # Calculate image height
+        line_height = font_size + 10
+        height = len(lines) * line_height + 40
+        
+        # Create transparent image
+        img = Image.new('RGBA', (width, height), (0, 0, 0, 0))
+        draw = ImageDraw.Draw(img)
+        
+        # Parse colors
+        if self.settings.caption.color.startswith('#'):
+            default_color = self._hex_to_rgb(self.settings.caption.color)
+        else:
+            default_color = (255, 255, 255)  # white
+            
+        if self.settings.caption.highlight_color.startswith('#'):
+            highlight_color = self._hex_to_rgb(self.settings.caption.highlight_color)
+        else:
+            highlight_color = (255, 255, 0)  # yellow
+        
+        # Track word index as we render
+        word_index = 0
+        y_offset = 20
+        
+        for line in lines:
+            line_words = line.split()
+            
+            # Calculate starting x for centered text
+            try:
+                bbox = draw.textbbox((0, 0), line, font=font)
+                line_width = bbox[2] - bbox[0]
+            except:
+                line_width = len(line) * (font_size // 2)
+            
+            x_offset = (width - line_width) // 2
+            
+            # Draw each word
+            for word_text in line_words:
+                # Determine color
+                color = highlight_color if word_index == highlight_index else default_color
+                
+                # Draw word
+                draw.text((x_offset, y_offset), word_text, font=font, fill=color)
+                
+                # Move x position
+                try:
+                    bbox = draw.textbbox((0, 0), word_text + ' ', font=font)
+                    word_width = bbox[2] - bbox[0]
+                except:
+                    word_width = len(word_text + ' ') * (font_size // 2)
+                
+                x_offset += word_width
+                word_index += 1
+            
+            y_offset += line_height
+        
+        # Convert to numpy array
+        return np.array(img)
 
-        clip = TextClip(
-            text=word,
-            font_size=self.settings.caption.font_size,
-            color=color,
-            font=self.settings.caption.font,
-            stroke_color=self.settings.caption.stroke_color,
-            stroke_width=self.settings.caption.stroke_width,
-        )
-
-        return clip.with_position(position).with_start(start_time).with_end(end_time)
-
-    def create_segment_clips(
-        self,
-        segment: CaptionSegment,
-        video_size: tuple[int, int],
-    ) -> list[TextClip]:
-        """
-        Create caption clips for a segment with word highlighting.
-
-        Args:
-            segment: Caption segment with word timings
-            video_size: (width, height) of the video
-
-        Returns:
-            List of TextClip objects
-        """
-        clips = []
-        width, height = video_size
-
-        # Calculate vertical position (center of screen)
-        y_position = height // 2
-
-        for i, word in enumerate(segment.words):
-            # Build the full text for this segment
-            words_text = [w.word for w in segment.words]
-
-            # Create clips for each moment in this word's duration
-            # The highlighted word changes as time progresses
-
-            for j, current_word in enumerate(segment.words):
-                # Create text with current word highlighted
-                # We'll create separate clips for highlighted and non-highlighted words
-
-                # During this word's time, highlight it
-                if j == i:
-                    # This is the word being highlighted during word[i]'s time
-                    clip = TextClip(
-                        text=current_word.word,
-                        font_size=self.settings.caption.font_size,
-                        color=self.settings.caption.highlight_color,
-                        font=self.settings.caption.font,
-                        stroke_color=self.settings.caption.stroke_color,
-                        stroke_width=self.settings.caption.stroke_width,
-                    )
-                else:
-                    clip = TextClip(
-                        text=current_word.word,
-                        font_size=self.settings.caption.font_size,
-                        color=self.settings.caption.color,
-                        font=self.settings.caption.font,
-                        stroke_color=self.settings.caption.stroke_color,
-                        stroke_width=self.settings.caption.stroke_width,
-                    )
-
-        # Simpler approach: create one composite per word timing
-        return self._create_karaoke_segment(segment, video_size)
-
-    def _create_karaoke_segment(
+    def _create_karaoke_with_highlight(
         self,
         segment: CaptionSegment,
         video_size: tuple[int, int],
     ) -> list:
         """
-        Create karaoke-style clips for a segment.
-
-        For each word in the segment, creates a clip showing all words
-        with the current word highlighted.
+        Create karaoke captions with word-by-word yellow highlighting using PIL.
         """
         clips = []
         width, height = video_size
-        y_pos = height * 0.5  # Center vertically
-
+        
+        if not segment.words:
+            return clips
+        
+        approx_chars_per_line = (width - 80) // (self.settings.caption.font_size // 2)
+        
+        # Create image clip for each word timing
         for i, current_word in enumerate(segment.words):
-            # Build text parts: before, current (highlighted), after
-            parts_before = " ".join(w.word for w in segment.words[:i])
-            highlighted = current_word.word
-            parts_after = " ".join(w.word for w in segment.words[i + 1 :])
-
-            # Create composite text with highlighting
-            # We'll create the full text and overlay the highlighted word
-
-            full_text = " ".join(w.word for w in segment.words)
-
-            # Base text (all white)
-            base_clip = TextClip(
-                text=full_text,
-                font_size=self.settings.caption.font_size,
-                color=self.settings.caption.color,
-                font=self.settings.caption.font,
-                stroke_color=self.settings.caption.stroke_color,
-                stroke_width=self.settings.caption.stroke_width,
-                method="caption",
-                size=(width - 100, None),
-                text_align="center",
+            # Generate image with current word highlighted
+            img_array = self._create_text_image_with_highlight(
+                segment.words,
+                i,
+                width,
+                self.settings.caption.font_size,
+                approx_chars_per_line
             )
-
-            # Position and time
-            base_clip = (
-                base_clip
+            
+            # Create ImageClip from array
+            img_clip = ImageClip(img_array, duration=current_word.end_time - current_word.start_time)
+            
+            # Center vertically
+            y_pos = int(height * 0.5 - img_clip.h * 0.5)
+            
+            img_clip = (
+                img_clip
                 .with_position(("center", y_pos))
                 .with_start(current_word.start_time)
-                .with_end(current_word.end_time)
             )
-
-            clips.append(base_clip)
-
-            # For the highlight effect, we create a separate clip
-            # This is a simplified approach - for true karaoke, you'd need
-            # more sophisticated text rendering
-
-            # Create highlight indicator (underline or background)
-            # For now, we'll use a simple approach with colored text overlay
-
+            
+            clips.append(img_clip)
+        
         return clips
 
     def _wrap_text_properly(self, text: str, max_width: int) -> str:
@@ -183,9 +171,6 @@ class KaraokeCaptions:
         Returns:
             Wrapped text with proper word boundaries
         """
-        # Use textwrap to ensure words stay together
-        # Adjust width based on font size - this is approximate
-        # You may need to tune this value based on your font
         wrapper = textwrap.TextWrapper(
             width=max_width,
             break_long_words=False,
@@ -211,7 +196,7 @@ class KaraokeCaptions:
             video_size: (width, height) of video
 
         Returns:
-            List of TextClip objects
+            List of clip objects
         """
         all_clips = []
         segments = transcript.get_segments_v2()
@@ -219,58 +204,10 @@ class KaraokeCaptions:
         logger.info(f"Generating captions for {len(segments)} segments")
 
         for segment in segments:
-            clips = self._create_simple_karaoke(segment, video_size)
+            clips = self._create_karaoke_with_highlight(segment, video_size)
             all_clips.extend(clips)
 
         return all_clips
-
-    def _create_simple_karaoke(
-        self,
-        segment: CaptionSegment,
-        video_size: tuple[int, int],
-    ) -> list:
-        """
-        Create simple karaoke captions - show segment text, highlight current word.
-
-        This creates individual word clips that highlight sequentially.
-        """
-        clips = []
-        width, height = video_size
-        
-        full_text = " ".join(w.word for w in segment.words)
-        
-        # Estimate character width based on video width and font size
-        # This is approximate - adjust the divisor based on your font
-        approx_chars_per_line = (width - 80) // (self.settings.caption.font_size // 2)
-        
-        # Wrap text properly to avoid word splitting
-        wrapped_text = self._wrap_text_properly(full_text, approx_chars_per_line)
-        
-        # Add padding to prevent clipping
-        padded_text = f"\n{wrapped_text}\n"
-
-        for i, word in enumerate(segment.words):
-            clip = TextClip(
-                text=padded_text,
-                font_size=self.settings.caption.font_size,
-                color=self.settings.caption.color,
-                font=self.settings.caption.font,
-                stroke_color=self.settings.caption.stroke_color,
-                stroke_width=self.settings.caption.stroke_width,
-                method="label",  # Changed from "caption" to "label" for better control
-            )
-            
-            y_pos = int(height * 0.5 - clip.h * 0.5)
-            
-            clip = (
-                clip
-                .with_position(("center", y_pos))
-                .with_start(word.start_time)
-                .with_end(word.end_time)
-            )
-            clips.append(clip)
-    
-        return clips
 
     def apply_captions(
         self,
